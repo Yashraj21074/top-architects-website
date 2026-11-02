@@ -1,0 +1,42 @@
+@import '@fontsource/cormorant-garamond/400.css';
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/400-italic.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+:root {
+  color-scheme: light;
+  /* DAY (default): warm ivory, charcoal text, restrained bronze */
+  --ivory: #f0ece4; --limestone: #e7e1d7; --stone: #d1c8ba; --stone-d: #6b655a;
+  --graphite: #292722; --charcoal: #1c1b19; --ink: #292722;
+  --bronze: #7a5d28; --bronze-l: #b08d57;
+  --bg: var(--ivory); --fg: var(--ink); --muted: #665f54; --line: rgba(41,39,34,.18);
+  --elev: #f6f3ec;                     /* raised surface */
+  --header-bg: rgba(240,236,228,.94); --veil: rgba(255,255,255,.4); --img-filter: none;
+  --f-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --f-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --s1: .5rem; --s2: 1rem; --s3: 1.5rem; --s4: 2.5rem; --s5: 4rem; --s6: 7rem; --s7: 10rem;
+  --gutter: clamp(1.25rem, 4vw, 4rem); --max: 1480px; --header-h: 76px;
+  --ease: cubic-bezier(.22,.61,.36,1); --t: .5s;
+  --ar-wide: 16 / 10; --ar-tall: 4 / 5; --ar-sq: 1 / 1;
+}
+@media (max-width: 720px) { :root { --header-h: 64px; --s6: 4.5rem; --s7: 6rem; } }
+
+/* NIGHT: deep charcoal surfaces, ivory type, warm bronze highlights, cinematic image grade */
+:root[data-theme='night'] {
+  color-scheme: dark;
+  --ivory: #1c1b19; --limestone: #24221f; --stone: #2b2823; --stone-d: #b7aea0;
+  --graphite: #e9e2d6; --charcoal: #151412; --ink: #e9e2d6;
+  --bronze: #c29a48; --bronze-l: #c29a48;
+  --muted: #b7aea0; --line: rgba(233,226,214,.17);
+  --elev: #2b2823;
+  --header-bg: rgba(28,27,25,.92); --veil: rgba(255,255,255,.05); --img-filter: brightness(.8) contrast(1.08) saturate(.92);
+}
+.theme-ready, .theme-ready body, .theme-ready .header, .theme-ready .section--stone, .theme-ready .footer, .theme-ready .notice, .theme-ready .img { transition: background-color .7s ease, color .7s ease, border-color .7s ease; }
+
+/* sticky offset for pinned stages: header, plus the Back bar when it is showing (height measured in ReceptionReturnBar) */
+:root { --stick: var(--header-h); }
+:root[data-return-bar] { --stick: calc(var(--header-h) + var(--bar-h, 0px)); }
+/* short viewports (phones on their side): a slimmer header, and the Back bar scrolls away instead of pinning, so content keeps most of the screen */
+@media (max-height: 520px) { :root { --header-h: 56px; } :root[data-return-bar] { --stick: var(--header-h); } .return-bar { position: static; } }
+/* ultra-wide / theatre displays: grow type, spacing and the content width together (rem-based), so the composition keeps its proportions instead of floating in empty space. At 1920px and below nothing changes. */
+@media (min-width: 1920px) { html { font-size: clamp(16px, calc(16px + (100vw - 1920px) * 0.0042), 24px); } :root { --max: 92.5rem; } }

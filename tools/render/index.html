@@ -1,0 +1,23 @@
+<!doctype html><html><body style="margin:0;background:#000"><canvas id="c"></canvas>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { build } from './scenes.js';
+import { CAMS } from './cams.js';
+const q = new URLSearchParams(location.search), name = q.get('n'), W = +q.get('w'), H = +q.get('h');
+const cam = CAMS[name];
+const r = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true });
+r.setSize(W, H, false); r.setPixelRatio(1); r.shadowMap.enabled = true; r.shadowMap.type = THREE.PCFSoftShadowMap;
+r.toneMapping = THREE.ACESFilmicToneMapping; r.outputColorSpace = THREE.SRGBColorSpace;
+const scene = new THREE.Scene();
+const sky = build(name, scene, cam);
+r.toneMappingExposure = cam.exposure ?? 1.0;
+const sd = scene.children.find((c) => c.isMesh && c.material.isShaderMaterial);
+const pm = new THREE.PMREMGenerator(r);
+if (sd) { const es = new THREE.Scene(); es.add(sd.clone()); scene.environment = pm.fromScene(es, 0.02).texture; scene.environmentIntensity = 1.0; }
+const c = new THREE.PerspectiveCamera(cam.fov, W / H, 0.1, 3000);
+c.position.set(...cam.pos); c.lookAt(new THREE.Vector3(...cam.target));
+if (cam.shift) c.setViewOffset(W, H, 0, cam.shift * H, W, H);
+r.render(scene, c);
+window.__done = true;
+</script></body></html>

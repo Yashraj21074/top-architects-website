@@ -1,0 +1,17 @@
+export const CAMS = {
+  'villa-dusk':     { scene: 'villa', sky: 'dusk', pos: [26, 2.8, 34], target: [0, 3.4, 0], fov: 32 },
+  'villa-pool':     { scene: 'villa', sky: 'golden', pos: [-14, 1.1, 22], target: [3, 4, -2], fov: 42 },
+  'villa-detail':   { scene: 'villa', sky: 'golden', pos: [14, 1.8, 10], target: [7, 4.6, 0], fov: 30 },
+  'tower-low':      { scene: 'tower', sky: 'day', pos: [70, 2, 105], target: [0, 66, 0], fov: 50 },
+  'tower-plaza':    { scene: 'tower', sky: 'golden', pos: [-30, 1.7, 90], target: [8, 14, 30], fov: 55 },
+  'civic-front':    { scene: 'civic', sky: 'golden', pos: [22, 3, 92], target: [0, 9, 0], fov: 38 },
+  'civic-aerial':   { scene: 'civic', sky: 'day', pos: [95, 60, 105], target: [0, 4, 6], fov: 36 },
+  'interior-living':{ scene: 'interior', pos: [-6, 1.5, 4.2], target: [3.4, 1.5, -3.6], fov: 62, exposure: 1.1 },
+  'interior-stair': { scene: 'interior', pos: [6.4, 1.4, 4.4], target: [-4.2, 2.4, -2.5], fov: 56, exposure: 1.1 },
+  'landscape-garden':{ scene: 'landscape', sky: 'golden', pos: [-34, 4.5, 34], target: [0, 1.5, 0], fov: 36 },
+  'landscape-pavilion':{ scene: 'landscape', sky: 'day', pos: [10, 1.7, 22], target: [0, 2.6, -6], fov: 42 },
+  'facade-fins':    { scene: 'facade', pos: [24, 2.5, 26], target: [-3, 9, 0], fov: 40 },
+  'resort-hill':    { scene: 'resort', pos: [-62, 20, 78], target: [0, 12, -10], fov: 40 },
+  'campus-court':   { scene: 'campus', pos: [-6, 1.7, 22], target: [2, 5.5, -20], fov: 52 },
+  'studio-model':   { scene: 'model', pos: [0.9, 0.62, 1.3], target: [0, 0.2, 0], fov: 32 },
+};

@@ -1,0 +1,67 @@
+/* ============================ PROCESS: six stages, one story ============================
+   Theme variables only. The images keep their own proportions (aspect-ratio from the file's real size, object-fit: contain), so nothing is cropped.
+   Motion: masked image reveals, a drifting stage number, a progress strip. Normal scrolling is never locked or slowed. */
+.pintro { padding: clamp(2rem, 6vw, 5rem) 0 clamp(1.4rem, 3vw, 2.4rem); }
+.pintro__h { font-size: clamp(2.3rem, 6.2vw, 6rem); line-height: 1.02; margin: 1rem 0 1.4rem; max-width: 15ch; text-wrap: balance; }
+.pintro__p { font-size: clamp(1rem, 1.35vw, 1.2rem); line-height: 1.7; color: var(--muted); max-width: 56ch; margin: 0; }
+.pintro__rule { height: 1px; background: var(--bronze); margin-top: clamp(1.6rem, 3.5vw, 2.6rem); width: min(100%, 14rem); }
+
+/* progress strip */
+.pprog { position: sticky; top: var(--stick); z-index: 20; background: var(--bg); border-block: 1px solid var(--line); }
+.pprog__in { display: flex; align-items: center; gap: 1.2rem; min-height: 48px; }
+.pprog__now { display: none; margin: 0; font: 500 .72rem/1.2 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--fg); max-width: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; } .pprog__now b { color: var(--bronze); font-weight: 500; } .pprog__now span { color: var(--muted); }
+.pprog__list { list-style: none; margin: 0; padding: 0; display: flex; flex: 1; gap: .5rem; min-width: 0; }
+.pprog__list li { flex: 1 1 0; min-width: 0; }
+.pprog__list a { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: .1rem .6rem; padding: .75rem 0; min-height: 48px; text-decoration: none; color: var(--muted); font: 500 .66rem/1.2 var(--f-body); letter-spacing: .12em; text-transform: uppercase; position: relative; transition: color .4s var(--ease); }
+.pprog__t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pprog__list i { position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--line); } .pprog__list i::after { content: ''; position: absolute; inset: 0; background: var(--bronze); transform: scaleX(0); transform-origin: left; transition: transform .7s var(--ease); }
+.pprog__list li[data-state='done'] i::after, .pprog__list li[data-state='now'] i::after { transform: scaleX(1); }
+.pprog__list li[data-state='now'] a, .pprog__list a:hover, .pprog__list a:focus-visible { color: var(--fg); } .pprog__list li[data-state='now'] .pprog__n { color: var(--bronze); }
+.pprog a:focus-visible, .pst :where(summary, a):focus-visible, .pfin :where(summary, a):focus-visible, .pcta a:focus-visible { outline: 1px solid var(--bronze); outline-offset: 3px; }
+
+/* stages 01–05 */
+.pst { padding: clamp(2.6rem, 7vw, 6.5rem) 0; scroll-margin-top: calc(var(--stick) + 52px); }
+.pst__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2.6vw, 3rem); align-items: center; }
+.pst__media { grid-column: 1 / 8; margin: 0; min-width: 0; } .pst[data-flip='1'] .pst__media { grid-column: 6 / 13; grid-row: 1; } .pst[data-flip='1'] .pst__txt { grid-column: 1 / 6; grid-row: 1; }
+.pst__txt { grid-column: 9 / 13; min-width: 0; transition: opacity .6s var(--ease); } .pst[data-flip='0'] .pst__txt { grid-column: 9 / 13; }
+.pst__fig { background: var(--stone, transparent); } .pst__fig picture, .pst__fig img { display: block; width: 100%; height: auto; } .pst__fig img { aspect-ratio: 1672 / 941; object-fit: contain; }
+.pst__media figcaption, .pfin__media figcaption { margin-top: .7rem; font: 400 .74rem/1.5 var(--f-body); color: var(--muted); letter-spacing: .02em; max-width: 60ch; }
+.pst__num { display: block; font: 400 clamp(4.2rem, 8.5vw, 9rem)/.85 var(--f-display); color: transparent; -webkit-text-stroke: 1px var(--bronze); margin: 0 0 .5rem -.04em; }
+.pst__sub { margin: 0 0 .7rem; font: 500 .7rem/1.4 var(--f-body); letter-spacing: .2em; text-transform: uppercase; color: var(--bronze); max-width: none; }
+.pst__t { font-size: clamp(1.9rem, 3.3vw, 3.2rem); line-height: 1.06; margin: 0 0 1rem; text-wrap: balance; }
+.pst__d { margin: 0 0 1.4rem; font-size: clamp(1rem, 1.2vw, 1.12rem); line-height: 1.7; color: var(--muted); max-width: 34ch; }
+@media (min-width: 1000px) { .pst:not([data-on='true']) .pst__txt { opacity: .62; } }
+
+/* expandable details: native <details>, so it works by tap, keyboard and without JS */
+.pst__more { border-top: 1px solid var(--line); max-width: 36ch; } .pst__more summary { list-style: none; display: flex; align-items: center; gap: .8rem; min-height: 48px; cursor: pointer; font: 500 .7rem/1 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--fg); transition: color .3s var(--ease); } .pst__more summary::-webkit-details-marker { display: none; } .pst__more summary:hover { color: var(--bronze); }
+.pst__plus { position: relative; width: .8rem; height: .8rem; flex: none; } .pst__plus::before, .pst__plus::after { content: ''; position: absolute; background: var(--bronze); left: 0; top: 50%; width: 100%; height: 1px; transition: transform .35s var(--ease); } .pst__plus::after { transform: rotate(90deg); }
+.pst__more[open] .pst__plus::after { transform: rotate(0); } .pst__hide { display: none; } .pst__more[open] .pst__show { display: none; } .pst__more[open] .pst__hide { display: inline; }
+.pst__more ul { list-style: none; margin: 0 0 .6rem; padding: 0; animation: pdet .5s var(--ease) both; } .pst__more li { position: relative; padding: .55rem 0 .55rem 1.4rem; font-size: .92rem; line-height: 1.6; color: var(--muted); } .pst__more li::before { content: ''; position: absolute; left: 0; top: 1.15rem; width: .8rem; height: 1px; background: var(--bronze); }
+@keyframes pdet { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
+/* stage 06: the finale. Always dark, whatever the theme, so the white render glows. */
+.pfin { --bronze: #c29a48; --fg: #f4eee3; --muted: #b9b09f; --line: rgba(244, 238, 227, .22); background: #12100f; color: var(--fg); padding: clamp(3.4rem, 9vw, 8rem) 0; scroll-margin-top: calc(var(--stick) + 52px); position: relative; }
+.pfin__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 3vw, 3.4rem); align-items: center; }
+.pfin__media { grid-column: 1 / 8; margin: 0; min-width: 0; } .pfin__txt { grid-column: 9 / 13; min-width: 0; }
+.pfin__fig picture, .pfin__fig img { display: block; width: 100%; height: auto; } .pfin__fig img { aspect-ratio: 1414 / 1600; object-fit: contain; max-height: 88svh; margin-inline: auto; width: auto; max-width: 100%; }
+.pfin__rule { height: 1px; background: var(--bronze); width: min(100%, 12rem); margin-bottom: 1.6rem; }
+.pfin__num { font-size: clamp(5rem, 11vw, 11rem); }
+.pfin .pst__t { color: var(--fg); } .pfin .pst__d { max-width: 30ch; }
+
+/* closing */
+.pcta { padding: clamp(4rem, 10vw, 9rem) 0; text-align: center; } .pcta__h { font-size: clamp(2rem, 4.8vw, 4.6rem); line-height: 1.06; margin: 0 auto; max-width: 16ch; text-wrap: balance; } .pcta__p { margin: 1.4rem auto 2.2rem; max-width: 46ch; color: var(--muted); font-size: 1.1rem; line-height: 1.65; }
+
+/* tablets & phones: stack, image first; the strip becomes a compact "03 / 06 · Concept Development" line over six thin bars */
+@media (max-width: 900px) {
+  .pst__grid, .pfin__grid { display: block; } .pst, .pfin { padding-block: clamp(2.2rem, 9vw, 3.4rem); }
+  .pst__media, .pfin__media { margin-bottom: 1.4rem; } .pst__txt, .pfin__txt { max-width: 34rem; }
+  .pst__num, .pfin__num { font-size: clamp(3.6rem, 18vw, 5.4rem); margin-bottom: .3rem; }
+  .pprog__in { flex-direction: column; align-items: stretch; gap: 0; min-height: 0; padding-top: .55rem; }
+  .pprog__now { display: block; padding-bottom: .5rem; }
+  .pprog__list { gap: .3rem; } .pprog__list a { padding: 0; min-height: 14px; } .pprog__n, .pprog__t { display: none; } .pprog__list i { position: relative; display: block; height: 2px; margin-bottom: .55rem; }
+  .pprog__list a { display: block; height: 20px; } .pprog__list i { position: absolute; bottom: 7px; margin: 0; }
+  .pst__d, .pfin .pst__d, .pst__more { max-width: none; } .pfin__fig img { max-height: 76svh; }
+}
+@media (min-width: 901px) and (max-width: 1180px) { .pprog__n { display: none; } }
+@media (max-height: 520px) and (orientation: landscape) { .pst, .pfin { padding-block: 1.6rem; } .pfin__fig img { max-height: 70svh; } }
+@media (prefers-reduced-motion: reduce) { .pst__txt { transition: none; opacity: 1 !important; } .pprog__list i::after, .pst__plus::before, .pst__plus::after { transition: none; } .pst__more ul { animation: none; } }

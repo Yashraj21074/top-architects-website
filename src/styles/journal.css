@@ -1,0 +1,101 @@
+/* ============================ JOURNAL: an architecture-magazine layout ============================
+   Theme variables only (--bg --fg --muted --line --bronze…), so day and night both work. Hover effects are progressive enhancement:
+   everything they reveal is also visible without hover (index numbers, categories, "Read" links), so touch screens lose nothing. */
+.jarrow { display: inline-block; margin-left: .5em; transition: transform .45s var(--ease); }
+.jread { display: inline-flex; align-items: center; gap: 0; margin-top: 1.1rem; padding: 0 0 .35rem; font: 500 .72rem/1 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--fg); text-decoration: none; border: 0; border-bottom: 1px solid var(--bronze); background: none; cursor: pointer; transition: color .35s var(--ease); }
+.jread:hover, .jread:focus-visible { color: var(--bronze); } .jread:hover .jarrow, .jread:focus-visible .jarrow, a:hover > .jarrow { transform: translateX(6px); }
+:where(.jhero, .jlead, .jcol, .jnotes, .jclose, .ahead, .abody, .arel) :where(a, button):focus-visible { outline: 1px solid var(--bronze); outline-offset: 4px; }
+.jrule { border: 0; border-top: 1px solid var(--line); margin: 1.4rem 0 1rem; width: 100%; }
+
+/* ---- 1. opening ---- */
+.jhero { padding: clamp(2rem, 5vw, 4.5rem) 0 clamp(2.5rem, 6vw, 5rem); }
+.jhero__top { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 1.6rem clamp(1.5rem, 5vw, 5rem); align-items: end; }
+.jhero__h { font-size: clamp(2.2rem, 5.4vw, 5.4rem); line-height: 1.03; margin: 1.1rem 0 0; max-width: 17ch; text-wrap: balance; }
+.jhero__lede { margin: 0; max-width: 32ch; font-size: clamp(1rem, 1.2vw, 1.15rem); line-height: 1.65; color: var(--muted); padding-bottom: .4rem; }
+.jhero__frame { margin-top: clamp(1.8rem, 4vw, 3.4rem); aspect-ratio: 21 / 9; max-height: 72svh; position: relative; overflow: hidden; }
+.jhero__plx { height: 116%; margin-top: -8%; } .jhero__plx .img, .ahead__plx .img { height: 100%; }
+.jhero__cap { display: flex; justify-content: space-between; gap: 1rem; margin: .8rem 0 0; font: 500 .66rem/1.5 var(--f-body); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); max-width: none; }
+
+/* ---- 2. cover story ---- */
+.jlead { padding: clamp(1rem, 3vw, 2.5rem) 0 clamp(3rem, 7vw, 6rem); }
+.jlead__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2.4vw, 2.6rem); align-items: end; }
+.jlead__fig { grid-column: 1 / 9; } .jlead__txt { grid-column: 9 / 13; padding-bottom: .4rem; }
+.jlead__imglink, .jst__imglink { display: block; } .jlead__fig .img { aspect-ratio: 4 / 3.15; }
+.jlead__cap { margin: .8rem 0 0; font: 400 .8rem/1.5 var(--f-body); color: var(--muted); max-width: 52ch; }
+.jlead__idx { display: flex; align-items: baseline; gap: 1rem; margin: 0 0 1.2rem; max-width: none; } .jlead__idx > span:first-child { font: 400 clamp(2.2rem, 4vw, 3.6rem)/1 var(--f-display); color: transparent; -webkit-text-stroke: 1px var(--bronze); }
+.jlead__t { font-size: clamp(2rem, 3.8vw, 3.6rem); line-height: 1.05; margin: 0 0 1.1rem; text-wrap: balance; } .jlead__t a, .jst__t a { color: inherit; text-decoration: none; background: linear-gradient(var(--bronze), var(--bronze)) 0 100% / 0 1px no-repeat; transition: background-size .6s var(--ease); } .jlead__t a:hover, .jst__t a:hover, .jlead__t a:focus-visible, .jst__t a:focus-visible { background-size: 100% 1px; }
+.jlead__x { font-size: clamp(1rem, 1.25vw, 1.15rem); line-height: 1.65; color: var(--muted); margin: 0; max-width: 34ch; }
+@media (hover: hover) { .jlead__fig .img img, .jst__fig .img img { transition: transform 1.1s var(--ease), filter .7s ease; } .jlead__grid:hover .jlead__fig .img img { transform: scale(1.035); } .jst:hover .jst__fig .img img { transform: scale(1.035); } }
+
+/* ---- 3. categories ---- */
+.jcol { padding-bottom: clamp(3rem, 7vw, 6rem); }
+.jcats { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.jcats__row { display: flex; gap: clamp(1.2rem, 3vw, 2.8rem); overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; padding: 0 .1rem; } .jcats__row::-webkit-scrollbar { display: none; }
+.jcats__b { flex: none; position: relative; padding: 1.15rem 0 1.05rem; min-height: 48px; background: none; border: 0; color: var(--muted); font: 500 .72rem/1 var(--f-body); letter-spacing: .18em; text-transform: uppercase; cursor: pointer; transition: color .35s var(--ease); white-space: nowrap; }
+.jcats__b sup { margin-left: .45em; font-size: .6rem; letter-spacing: .06em; color: var(--bronze); }
+.jcats__b::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; background: var(--bronze); transform: scaleX(0); transform-origin: left; transition: transform .5s var(--ease); }
+.jcats__b:hover, .jcats__b:focus-visible, .jcats__b[aria-pressed='true'] { color: var(--fg); } .jcats__b[aria-pressed='true']::after, .jcats__b:hover::after { transform: scaleX(1); }
+.jresume { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; align-items: baseline; margin: 1.4rem 0 0; max-width: none; } .jresume a { color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--bronze); font-size: .95rem; }
+
+/* ---- 4. collection ---- */
+.jcol__list { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2.4vw, 2.6rem); row-gap: clamp(3rem, 6vw, 6rem); margin-top: clamp(2.4rem, 5vw, 4.5rem); animation: jfade .5s var(--ease) both; }
+@keyframes jfade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.jst { min-width: 0; } .jst__fig, .jst__txt { min-width: 0; }
+.jst__top { display: flex; align-items: baseline; gap: .9rem; margin: 0 0 .9rem; max-width: none; } .jst__n { font: 400 1.5rem/1 var(--f-display); color: var(--bronze); }
+.jst__t { font-size: clamp(1.5rem, 2.4vw, 2.2rem); line-height: 1.12; margin: 0 0 .8rem; } .jst__x { margin: 0 0 .8rem; color: var(--muted); max-width: 40ch; line-height: 1.6; }
+/* three compositions, chosen by position so the page stays curated after filtering: landscape · offset portrait · wide spread */
+.jcol__list > .jst--med { grid-column: 1 / 8; }
+.jcol__list > .jst--tall { grid-column: 9 / 13; margin-top: clamp(2.5rem, 8vw, 8rem); }
+.jcol__list > .jst--wide { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2.4vw, 2.6rem); align-items: center; }
+.jst--wide > .jst__fig { grid-column: 1 / 8; } .jst--wide > .jst__txt { grid-column: 9 / 13; }
+.jst:not(.jst--wide) > .jst__txt { margin-top: 1.3rem; }
+.jst--med .jst__fig .img { aspect-ratio: 3 / 2; } .jst--tall .jst__fig .img { aspect-ratio: 4 / 5; } .jst--wide .jst__fig .img { aspect-ratio: 16 / 9; }
+.jempty { grid-column: 1 / -1; padding: clamp(3rem, 8vw, 6rem) 0; text-align: left; } .jempty p { font: 400 clamp(1.3rem, 2.4vw, 2rem)/1.3 var(--f-display); max-width: 30ch; }
+
+/* ---- 5. notes ---- */
+.jnotes { padding: clamp(3.5rem, 8vw, 7rem) 0; }
+.jnotes__head { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1rem clamp(1.5rem, 5vw, 5rem); align-items: end; margin-bottom: clamp(2.2rem, 5vw, 4.5rem); }
+.jnotes__h { font-size: clamp(2rem, 4.2vw, 4rem); line-height: 1.05; margin: 0; max-width: 14ch; } .jnotes__sub { margin: 0; color: var(--muted); max-width: 30ch; font-size: 1.05rem; line-height: 1.6; }
+.jnotes__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2rem, 4vw, 3.4rem) clamp(1.4rem, 3vw, 3rem); }
+.jnote { border-top: 1px solid var(--line); padding-top: 1.1rem; min-width: 0; }
+.jnote__img { aspect-ratio: 5 / 4; margin-bottom: 1.1rem; } .jnote__img .img { height: 100%; }
+.jnote__n { display: block; font: 400 1.6rem/1 var(--f-display); color: var(--bronze); margin-bottom: .7rem; }
+.jnote h3 { font-size: clamp(1.15rem, 1.5vw, 1.4rem); line-height: 1.25; margin: 0 0 .6rem; } .jnote p { margin: 0 0 .9rem; font-size: .95rem; line-height: 1.65; color: var(--muted); max-width: 38ch; }
+.jnote__tag { font: 500 .6rem/1 var(--f-body); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+
+/* ---- 6. closing ---- */
+.jclose { padding: clamp(4rem, 10vw, 9rem) 0; text-align: center; }
+.jclose__h { font-size: clamp(2rem, 4.6vw, 4.4rem); line-height: 1.08; margin: 0 auto; max-width: 18ch; text-wrap: balance; } .jclose__x { margin: 1.6rem auto 0; color: var(--muted); max-width: 40ch; font-size: 1.1rem; line-height: 1.6; }
+.jclose__links { list-style: none; margin: 2.4rem 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem clamp(1.4rem, 4vw, 3rem); }
+.jclose__links a { display: inline-flex; padding: .6rem 0; min-height: 44px; align-items: center; font: 500 .74rem/1 var(--f-body); letter-spacing: .18em; text-transform: uppercase; color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--line); transition: color .35s var(--ease), border-color .35s var(--ease); } .jclose__links a:hover, .jclose__links a:focus-visible { color: var(--bronze); border-color: var(--bronze); } .jclose__links a:hover .jarrow { transform: translateX(6px); }
+
+/* ============================ ARTICLE ============================ */
+.read-progress { position: sticky; top: var(--stick); z-index: 30; height: 2px; background: transparent; pointer-events: none; } .read-progress i { display: block; height: 100%; background: var(--bronze); transform: scaleX(0); transform-origin: left; }
+.ahead { padding: 0 0 clamp(1.6rem, 4vw, 3rem); } .ahead__in { margin-top: clamp(1.8rem, 4vw, 3.4rem); max-width: 56rem; }
+.ahead__t { font-size: clamp(2.4rem, 6vw, 5.4rem); line-height: 1.02; margin: 1rem 0 1.3rem; text-wrap: balance; } .ahead__x { font: 400 clamp(1.15rem, 1.8vw, 1.5rem)/1.5 var(--f-display); color: var(--muted); margin: 0 0 1.2rem; max-width: 36ch; } .ahead__meta { margin: 0; }
+.ahead__frame { aspect-ratio: 16 / 8; max-height: 74svh; position: relative; overflow: hidden; } .ahead__plx { height: 114%; margin-top: -7%; }
+.abody { padding: clamp(2.5rem, 6vw, 5rem) 0 clamp(3rem, 7vw, 6rem); }
+.art-body { max-width: 42rem; margin-inline: auto; } .art-body > p { font-size: clamp(1.05rem, 1.15vw, 1.15rem); line-height: 1.85; margin: 0 0 1.5rem; max-width: none; } .art-body > p:first-child::first-letter { font: 400 3.4em/.85 var(--f-display); float: left; padding: .06em .12em 0 0; color: var(--bronze); }
+.art-h { font-size: clamp(1.6rem, 2.6vw, 2.2rem); line-height: 1.15; margin: clamp(2.4rem, 5vw, 3.6rem) 0 1rem; max-width: none; }
+.art-quote { margin: clamp(2.4rem, 5vw, 4rem) 0; padding: 0 0 0 clamp(1.2rem, 3vw, 2.4rem); border-left: 1px solid var(--bronze); } .art-quote p { font: italic 400 clamp(1.5rem, 2.8vw, 2.4rem)/1.25 var(--f-display); margin: 0; max-width: 22ch; color: var(--fg); }
+.art-list { margin: 0 0 1.6rem; padding: 0; list-style: none; } .art-list li { position: relative; padding: .7rem 0 .7rem 1.8rem; border-top: 1px solid var(--line); line-height: 1.6; } .art-list li:last-child { border-bottom: 1px solid var(--line); } .art-list li::before { content: ''; position: absolute; left: 0; top: 1.35rem; width: 1rem; height: 1px; background: var(--bronze); }
+.art-fig, .art-pair { margin: clamp(2.4rem, 5vw, 4rem) calc(50% - min(50vw - var(--gutter), 33rem)); } .art-fig .img { aspect-ratio: 16 / 9; } .art-pair { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(.8rem, 2vw, 1.6rem); } .art-pair figure { margin: 0; } .art-pair .img { aspect-ratio: 4 / 5; }
+.art-fig figcaption, .art-pair figcaption { margin-top: .7rem; font: 400 .8rem/1.5 var(--f-body); color: var(--muted); max-width: 60ch; }
+.art-rel { margin: 2.4rem 0 0; padding-top: 1.2rem; border-top: 1px solid var(--line); } .art-note { margin: 1rem 0 0; font-size: .8rem; color: var(--muted); } .art-note:empty { display: none; }
+.arel { padding: clamp(3rem, 7vw, 6rem) 0; } .arel__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: clamp(1.4rem, 3vw, 2.6rem); }
+.arel__c { display: block; text-decoration: none; color: inherit; } .arel__c .img { aspect-ratio: 4 / 3; margin-bottom: 1rem; } .arel__c h3 { font-size: clamp(1.25rem, 1.8vw, 1.6rem); margin: .5rem 0 .5rem; } .arel__c p { margin: 0; color: var(--muted); line-height: 1.6; }
+@media (hover: hover) { .arel__c .img img { transition: transform 1.1s var(--ease), filter .7s ease; } .arel__c:hover .img img { transform: scale(1.035); } }
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width: 1100px) { .jnotes__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .jlead__fig { grid-column: 1 / 8; } .jlead__txt { grid-column: 8 / 13; } }
+@media (max-width: 860px) {
+  .jhero__top, .jnotes__head { grid-template-columns: minmax(0, 1fr); } .jhero__frame { aspect-ratio: 4 / 3; } .jhero__plx { height: 118%; margin-top: -9%; }
+  .jlead__grid { display: block; } .jlead__txt { margin-top: 1.6rem; }
+  .jcol__list { display: block; } .jcol__list > .jst { display: block; margin: 0 0 clamp(2.6rem, 9vw, 3.6rem); } .jcol__list > .jst--tall { margin-top: 0; } .jcol__list > .jst--wide { display: block; } .jst:not(.jst--wide) > .jst__txt, .jst--wide > .jst__txt { margin-top: 1.1rem; }
+  .jst--med .jst__fig .img, .jst--wide .jst__fig .img { aspect-ratio: 4 / 3; } .jst--tall .jst__fig .img { aspect-ratio: 4 / 4.6; }
+  .art-fig, .art-pair { margin-inline: 0; } .ahead__frame { aspect-ratio: 4 / 3; } .ahead__plx { height: 116%; margin-top: -8%; }
+}
+@media (max-width: 700px) { .jnotes__grid { grid-template-columns: minmax(0, 1fr); } .art-pair { grid-template-columns: minmax(0, 1fr); } .art-pair .img { aspect-ratio: 4 / 3; } .jhero__cap { flex-direction: column; gap: .2rem; } }
+@media (min-width: 1800px) { .jhero__h { font-size: clamp(5.4rem, 4.6vw, 7rem); } }
+@media (prefers-reduced-motion: reduce) { .jcol__list { animation: none; } .jarrow, .jread, .jcats__b, .jcats__b::after, .jlead__t a, .jst__t a { transition: none; } .jlead__fig .img img, .jst__fig .img img, .arel__c .img img { transition: none; transform: none !important; } }
+.page-progress { } body:has(.read-progress) .page-progress { display: none; }  /* the article has its own reading line */
