@@ -1,0 +1,136 @@
+{
+  "category": "Public & Landscape",
+  "outputPath": "/home/ubuntu/work/top-upgrade/TOP-Architects-Partners-7/docs/portfolio-briefs/public-landscape.json",
+  "projects": [
+    {
+      "slug": "garden-pavilion",
+      "functionalBrief": "The pavilion offers a shaded place for rest, informal gathering and viewing within a garden, with clear step-free circulation between the arrival path, seating platform and adjacent pond. Routine operation should keep the pond edge safe, provide discreet maintenance access for water and planting systems, and preserve flexible open space rather than fixing a single event layout.",
+      "programme": [
+        "Open-sided shaded pavilion",
+        "Accessible arrival path",
+        "Stone terrace and seating platform",
+        "Reflecting pond edge",
+        "Garden paths and stepping-stone route",
+        "Retained-tree planting zones",
+        "Pond maintenance access"
+      ],
+      "floorOrSiteOrganization": "Place the pavilion on a stable terrace near the principal garden approach, with an accessible route reaching the platform without relying on stepping stones. Arrange seating beneath the roof perimeter and maintain an unobstructed central circulation zone. Separate the pond’s maintenance edge from public seating, provide a guarded or planted buffer where needed, and keep paths clear for emergency access and garden servicing.",
+      "areaOrScale": "Proposal-stage allowance: pavilion roof about 120–180 m², one open level with approximately 30–45 seated places; surrounding garden intervention about 1,500–3,000 m². Column spacing approximately 4–6 m; final pond depth, edge treatment and occupancy to follow site and safety review.",
+      "structuralSystem": "Use a regular grid of slender bronze-finished steel columns supporting primary steel beams and secondary timber roof joists/slats, with preliminary spans of 4–6 m. Columns sit on concealed reinforced-concrete pad foundations or a low-grade beam system; design for wind uplift, timber movement and local exposure.",
+      "constructionLogic": "Set out levels and protect retained trees before excavation; install foundations, concealed drainage and pond-edge services first. Erect bolted steel columns and beams, then fix treated timber slats with replaceable stainless-steel fasteners and appropriate separation at dissimilar materials. Build limestone terrace paving over a drained compacted base, provide flush accessible transitions, and detail pond overflow, waterproofing or liner protection, edge restraint and maintenance access.",
+      "environmentalResponse": "Orient the open pavilion to capture prevailing breezes while using the slatted roof for dappled shade and filtered daylight. Retain canopy trees and use locally appropriate planting to reduce heat without blocking sightlines. Direct roof runoff to planted areas or a controlled pond inlet with overflow; manage pond water quality, mosquito risk and evaporation through recirculation, depth and maintenance planning, subject to climate and local regulations."
+    },
+    {
+      "slug": "junction-civic-green",
+      "functionalBrief": "The landscape provides a safe, shaded transfer route between transit arrivals and neighborhood civic uses, while accommodating market activity, community gatherings and daily park use. Operations require clear separation of pedestrians, cyclists and vehicle drop-off, accessible wayfinding, waste and vendor servicing, and stormwater infrastructure that remains inspectable.",
+      "programme": [
+        "Shaded transit-to-civic pedestrian spine",
+        "Open-sided waiting frames",
+        "Low community hall",
+        "Open market court",
+        "Neighborhood green and detention lawn",
+        "Accessible walking/cycling routes",
+        "Bioretention swales",
+        "Service and vendor access"
+      ],
+      "floorOrSiteOrganization": "Align the main step-free spine from the transit edge to the community hall, market court and green in that sequence. Keep cycle movement legible and separate from waiting/seating zones; place vehicle drop-off and vendor servicing on a secondary edge with controlled crossings. Locate swales beside, not across, principal routes and retain emergency access and clear egress from the hall and court.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1.5–2.5 ha civic site, including a 250–400 m spine and 800–1,200 m² low community hall; hall capacity roughly 120–180 people subject to code and egress review. Canopy bays about 5–7 m, with route widths typically 4–6 m where transfer flows warrant.",
+      "structuralSystem": "Community hall: regular reinforced-concrete frame or loadbearing masonry with steel roof joists and terracotta screens as non-structural shading. The long canopy uses galvanized structural-steel columns and beams at approximately 5–7 m bays with braced end frames; foundations are reinforced-concrete pads or strip footings based on soils.",
+      "constructionLogic": "Coordinate utility corridors, transit interfaces, fire access and stormwater levels before setting out. Build the hall and canopy foundations, underground services and swales before paving; fabricate canopy frames in transportable bolted segments, with corrosion protection and replaceable roof panels. Use basalt paving on a stable drained base, permeable secondary paths, precast seat kerbs and accessible transitions; provide sediment forebays and safe overflow to the detention lawn.",
+      "environmentalResponse": "Use repeated canopy shade and native shade trees along the transfer spine, while maintaining open sides for cross-ventilation and clear sightlines. Terracotta screens shade hall openings without sealing the perimeter; orient glazing and shaded outdoor waiting to limit low-angle heat. Capture roof and hardscape runoff in planted bioretention swales and a detention lawn, with capacity and overflow route verified by catchment modelling."
+    },
+    {
+      "slug": "margin-library-garden",
+      "functionalBrief": "The garden extends the public library with quiet outdoor reading, shaded waiting and a step-free route between the entrance, reading verandah and planted courts. Staff need clear sightlines, durable seating, safe evening closure and simple irrigation and rain-garden maintenance without interrupting library access.",
+      "programme": [
+        "Step-free garden loop",
+        "Shaded reading verandah",
+        "Outdoor reading courts",
+        "Continuous sandstone seating",
+        "Drought-adapted grove",
+        "Sunken rain garden",
+        "Roof-water channel and storage cistern",
+        "Library service/maintenance access"
+      ],
+      "floorOrSiteOrganization": "Keep the continuous accessible loop directly connected to the library entrance and verandah, with quiet reading courts set back from the main arrival path. Place the rain garden at the natural low point beyond the channel and provide a safe, visible edge; reserve a discreet service route to the cistern and planting beds without crossing primary seating zones.",
+      "areaOrScale": "Proposal-stage allowance: approximately 2,500–4,000 m² landscape precinct, with a 100–160 m long step-free loop and a 3–4 m deep continuous verandah edge. Single-level landscape; rain garden about 100–200 m² and cistern volume to be established from roof area and local rainfall calculations.",
+      "structuralSystem": "The garden is primarily landscape construction; the verandah may use a regular reinforced-concrete or steel column line at approximately 3.5–5 m centres supporting a simple beam and flat roof. Brick jaali is non-loadbearing infill; foundations and column sizes require geotechnical and structural design.",
+      "constructionLogic": "Set levels and drainage before paving; build verandah foundations and frame, then roof falls, waterproofing and accessible rainwater outlets. Install the jaali with movement-tolerant ties and robust stone bench anchors; use flamed sandstone on a drained, slip-resistant sub-base with tactile cues. Form the rain garden with tested soil media, underdrain where needed, accessible inspection points and an overflow connection; keep cistern access clear.",
+      "environmentalResponse": "Use deep verandah shade and ventilated brick jaali to temper western sun while allowing air movement and filtered daylight. Plant drought-adapted local canopy species and low-water understorey; use drip irrigation from stored roof water. Direct roof runoff visibly to the rain garden, with overflow sized for intense storms and infiltration verified against soil and groundwater conditions."
+    },
+    {
+      "slug": "monsoon-court-civic-plaza",
+      "functionalBrief": "The plaza provides a legible, shaded civic meeting place for daily pedestrian movement, informal events and short stays in a dense warm-humid city. Keep two diagonal step-free routes clear during events; provide robust seating, maintainable planted infiltration courts and discreet service access at the screened edge.",
+      "programme": [
+        "Covered civic gathering court",
+        "Two diagonal accessible pedestrian routes",
+        "Four planted infiltration courts",
+        "Perimeter seating and pause points",
+        "Ventilated screened service edge",
+        "Below-grade rainwater storage and overflow connection"
+      ],
+      "floorOrSiteOrganization": "Arrange the square court beneath the canopy with planted courts at its corners and preserve both diagonal desire lines as unobstructed, flush routes. Locate seating outside these clear paths; consolidate electrical/water maintenance access behind the terracotta-screened edge, with multiple open perimeter approaches and no dead-end enclosure.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1,600–2,000 m² plaza, with a roughly 32–36 m square canopy and 4–6 m clear height; single-level public realm. Canopy grid approximately 6–8 m, subject to wind and engineering checks.",
+      "structuralSystem": "A regular grid of slender painted structural-steel columns supports a shallow, triangulated steel roof frame and folded metal roof skin; preliminary column spacing about 6–8 m. Provide braced bays discreetly at service edges, with reinforced-concrete pad or tied foundations subject to geotechnical and wind design.",
+      "constructionLogic": "Install buried drainage, cistern and electrical sleeves before paving; form accessible falls to grated or stone-lined channels and planted basins with protected overflow. Erect shop-fabricated galvanized/painted steel frames on bolted base plates, then roof panels, scuppers and copper-toned leaders; lay slip-resistant flamed granite on a drained, maintainable sub-base with movement joints.",
+      "environmentalResponse": "Keep the perimeter open for cross-breezes and use high, ventilated terracotta screens only where services need screening. Canopy shade and native tree courts reduce radiant heat; orient planting and seating for useful shade while retaining daylight. Pitch roof areas to visible leaders, infiltration gardens and a controlled cistern overflow sized through site-specific monsoon hydrology."
+    },
+    {
+      "slug": "reedlight-exhibition-pavilion",
+      "functionalBrief": "The pavilion supports changing exhibitions, small cultural gatherings and interpretation of a floodplain landscape, with flexible openings that connect indoor activity to the boardwalk loop. Provide secure collection storage, accessible visitor facilities and a service route that remains usable without crossing the principal public threshold.",
+      "programme": [
+        "Flexible exhibition hall",
+        "Entry and orientation zone",
+        "Small collections/preparation store",
+        "Accessible toilets",
+        "Staff/work room",
+        "Raised accessible boardwalk loop",
+        "Rain-fed pool and wetland clearings",
+        "Service and maintenance access"
+      ],
+      "floorOrSiteOrganization": "Place the long single-storey hall on the higher, verified part of the site, with visitor entry from the loop at one end and a second accessible exit at the opposite end. Keep toilets, storage and staff functions in a compact enclosed service band; maintain clear exhibition circulation and connect the raised boardwalk and firm mineral path around, not through, wetland habitat.",
+      "areaOrScale": "Proposal-stage allowance: approximately 500–650 m² enclosed hall, one level, about 45–55 m long by 11–13 m wide; exhibition capacity roughly 100–140 people subject to egress review. Allow a 1.5–2 km² site landscape only as a planning assumption to be verified; raised floor height to be set above surveyed flood design level.",
+      "structuralSystem": "Use repeated 5–6 m bays of durable timber posts and beams with engineered timber or steel-supported sawtooth roof trusses; graphite steel connections provide lateral restraint. Foundations may use elevated reinforced-concrete piers or helical/micropiles subject to floodplain soils and scour assessment.",
+      "constructionLogic": "Confirm flood levels, soil bearing and ecological exclusion zones before setting out; build access and temporary work platforms to avoid wetland disturbance. Install foundations and raised floor beams, then modular timber/steel roof bays with north clerestory glazing, continuous metal flashings and deep eaves. Detail ventilated sliding hardwood screens, durable stone thresholds, raised boardwalk supports and replaceable deck boards; route roof water to planted basins without uncontrolled discharge.",
+      "environmentalResponse": "Orient sawtooth clerestories north for diffuse daylight, with opaque insulated south-facing roof slopes and deep eaves to control heat and glare. Operable screened sides support seasonal cross-ventilation, with secure closure for storms. Set occupied floor above the surveyed flood design level, use flood-tolerant planting and permeable paths, and keep boardwalk lighting low-spill to protect habitat."
+    },
+    {
+      "slug": "sponge-belt-ecological-park",
+      "functionalBrief": "The linear park combines everyday walking and neighborhood links with distributed stormwater detention, wetland habitat and shaded rest points. Operations should allow safe access during ordinary rainfall, controlled closure of inundated low areas, routine sediment and vegetation maintenance, and emergency overflow without sending water across adjacent properties.",
+      "programme": [
+        "Shallow retention basins",
+        "Planted overflow swale",
+        "Raised accessible edge path",
+        "Occasional basalt pedestrian bridges",
+        "Upland shade decks",
+        "Wet meadow and sedge habitat",
+        "Dry-season tree groves",
+        "Maintenance access and inspection points"
+      ],
+      "floorOrSiteOrganization": "Follow existing contours with a chain of shallow basins and overflow saddles; place the continuous firm path on higher ground and connect neighborhood streets at visible bridge points. Locate open-sided decks on stable upland nodes, not basin bottoms. Keep maintenance access alongside the swale where feasible and provide safe bypass/closure points when crossings are submerged.",
+      "areaOrScale": "Proposal-stage planning assumption: linear corridor approximately 1.5–2.5 km long and 40–80 m wide, or about 8–15 ha, with no enclosed buildings. Main path approximately 2.5–3 m wide; basins typically 0.3–1.0 m deep, with final storage and freeboard determined by survey and hydrology.",
+      "structuralSystem": "Landscape earthworks and rubble-stone check weirs form the primary system; occasional short-span basalt slab bridges bear on reinforced-concrete or stone abutments. Shade decks use simple galvanized-steel posts and beams on isolated concrete pads or stone piers, with spans generally 3–5 m.",
+      "constructionLogic": "Survey utilities and drainage catchment first, then sequence earthworks from downstream outlet upstream, retaining safe temporary bypasses. Compact berms in tested lifts, line erosion-prone inlets and weirs with keyed stone, and provide geotextile/filter transitions only where engineering design requires. Install bridges and decks on verified foundations; finish paths with compacted permeable mineral layers, crossfall and accessible transitions; include sediment forebays and maintenance access.",
+      "environmentalResponse": "Use basin storage and a planted overflow chain to attenuate monsoon peaks while preserving a defined safe exceedance route. Plant native wet meadow species in periodically inundated lows and drought-tolerant indigenous canopy trees on higher ground. Provide shade at rest nodes, minimize night lighting, protect existing drainage corridors and size infiltration only after groundwater and soil-percolation tests."
+    },
+    {
+      "slug": "tidal-commons-waterfront",
+      "functionalBrief": "The waterfront creates a continuous public walking route with shaded pauses, accessible street-to-river connections and robust spaces for observing the tidal edge. Daily operation must accommodate inundated lower terraces, maintain clear upper-route access, support cleaning and inspection of runoff systems, and provide safe edge protection where required by risk assessment.",
+      "programme": [
+        "Raised step-free waterfront promenade",
+        "Accessible ramps and street crossings",
+        "Stepped granite tidal terraces",
+        "Slatted hardwood shade bays",
+        "Upper rain gardens",
+        "Stone runoff rills and sediment forebays",
+        "Lower brackish planted shelves",
+        "Maintenance and inspection access"
+      ],
+      "floorOrSiteOrganization": "Run the raised promenade continuously along the urban edge, with frequent ramps and landings linking streets, rain gardens and lower terraces. Keep the principal route clear of canopy columns and service cuts; place seating and shade bays at widened nodes. Treat lower terraces as periodically wet, provide detectable edges and handrails where level changes or tidal risk require them, and maintain service access to rills and forebays.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1.0–1.8 km waterfront reach, with a 6–10 m wide public realm and about 1.5–3 ha total intervention area depending on shoreline geometry. Main promenade 4–6 m clear width; canopy bays at roughly 4–6 m intervals; terrace levels and raised datum to be set by coastal survey and flood modelling.",
+      "structuralSystem": "Promenade may use reinforced-concrete edge beams or a piled/ground-supported slab depending on settlement and flood conditions; terrace steps use mass granite blocks on engineered granular bedding with restrained edges. Canopies are independent galvanized or suitably protected steel frames with hardwood slats; all waterfront foundations require corrosion, scour and uplift design.",
+      "constructionLogic": "Complete topographic, geotechnical, tidal, wave and contamination surveys before fixing the promenade datum. Work in short shoreline sections with temporary erosion and sediment controls; build buried drainage and outfalls with tide/backflow protection, then foundations, promenade and stepped stone terraces. Use durable slip-resistant basalt, isolated corrosion-resistant connections and replaceable timber slats; provide movement joints, accessible ramp landings, inspectable rills, sediment traps and safe overflow paths.",
+      "environmentalResponse": "Set the continuous accessible route above the adopted design flood/tidal level and confirm freeboard through coastal risk analysis. Shape lower sacrificial terraces and brackish planting to tolerate periodic inundation, avoiding hard barriers that worsen erosion. Shade the route with open slatted canopies and salt-tolerant trees; route street runoff through rain gardens and inspectable rills with treatment and controlled discharge, while specifying salt- and splash-resistant materials."
+    }
+  ]
+}

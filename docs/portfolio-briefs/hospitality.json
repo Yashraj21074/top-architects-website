@@ -1,0 +1,773 @@
+{
+  "category": "Hospitality",
+  "outputPath": "/home/ubuntu/work/top-upgrade/TOP-Architects-Partners-7/docs/portfolio-briefs/hospitality.json",
+  "projects": [
+    {
+      "id": "hosp-aravalli-stone-lodge",
+      "slug": "aravalli-slate-lodge",
+      "title": "Aravalli Slate Lodge",
+      "category": "Hospitality",
+      "typology": "Mountain hospitality lodge",
+      "location": "Conceptual setting — a high forested ridge in the western Himalaya, India",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/aravalli-slate-lodge-hero",
+      "gallery": [
+        {
+          "id": "projects/aravalli-slate-lodge-hero",
+          "assetKey": "aravalli-slate-lodge-hero",
+          "view": "Oblique arrival court view against forested ridge",
+          "alt": "Stepped stone-and-timber lodge wings gather around a sheltered court beneath steep slate roofs.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/aravalli-slate-lodge-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique arrival view of the same stepped mountain lodge cluster; preserve two- and three-storey wings following the ridge, steep continuous dark slate roofs, grey stone retaining bases, timber-clad upper walls, deep-set rectangular windows, sheltered court, stone terraces and conifer forest with valley backdrop; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/aravalli-slate-lodge-alternate",
+          "assetKey": "aravalli-slate-lodge-alternate",
+          "view": "Valley-facing elevation at winter light",
+          "alt": "Deep-set windows in the timber-clad dining hall frame the mountain valley beneath the slate roof.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/aravalli-slate-lodge-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, valley-facing eye-level elevation of the same lodge dining hall and stepped wing; preserve steep dark slate roof, grey stone base, timber upper cladding, deep-set rectangular glazing, ridge-following massing and forested valley setting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/aravalli-slate-lodge-aerial",
+          "assetKey": "aravalli-slate-lodge-aerial",
+          "view": "High oblique view of roof cluster and contour terraces",
+          "alt": "Aerial view reveals continuous slate roof planes stepping with stone terraces along the ridge.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/aravalli-slate-lodge-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial of the same mountain lodge; preserve the compact stepped cluster around its sheltered court, steep dark slate roofs, stone retaining terraces, timber upper volumes, conifer forest and ridge contour with valley beyond; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/aravalli-slate-lodge-functional",
+          "assetKey": "aravalli-slate-lodge-functional",
+          "view": "Shared dining hall interior toward valley glazing",
+          "alt": "The communal dining hall frames a distant valley through deep-set glazing and a timber structure.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/aravalli-slate-lodge-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional interior view of the same lodge's shared dining hall looking through its valley-facing deep-set rectangular glazing; preserve visible timber structure, grey stone base, steep slate roof geometry overhead and forested valley setting beyond; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/aravalli-slate-lodge-detail",
+          "assetKey": "aravalli-slate-lodge-detail",
+          "view": "Slate eave, timber cladding and stone wall junction",
+          "alt": "Slate roof courses and timber cladding meet a rough grey stone base at a protected window reveal.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/aravalli-slate-lodge-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural detail view of the same lodge, close framing dark slate roof courses and deep eave over timber cladding, deep-set rectangular window and rough grey stone base; retain cold high-ridge forest context in subtle background and the established materials and geometry; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A compact lodge clusters around a sheltered stone hearth court, using a steep slate roof and timber structure to meet cold, wet mountain conditions. Its stepped massing follows the ridge rather than forming a resort of detached villas.",
+      "designIntent": "The lodge is arranged as a stepped cluster of guest-room wings and a shared dining hall around a protected arrival court, anchored into the slope with dry-stone retaining terraces. A steep slate roof sheds snow and rain, while a timber frame and deep window reveals temper the cold climate. The common hall faces a distant valley through a carefully framed opening; rooms turn toward forest clearings. Durable local stone at the base and warm timber above give the building a grounded profile without resorting to alpine pastiche.",
+      "approach": [
+        "Align stepped wings with the ridge contours to limit excavation and retain existing trees.",
+        "Concentrate shared spaces around the sheltered court and orient the dining hall toward a single valley outlook.",
+        "Specify a continuous insulated roof, protected entry vestibules and operable high-level vents for seasonal comfort.",
+        "Use stone terraces and planted drainage swales to slow snowmelt and direct runoff safely downslope."
+      ],
+      "materials": [
+        "Rough-faced regional grey stone",
+        "Locally sourced timber frame and cladding",
+        "Dark slate roofing",
+        "Low-e insulated glazing",
+        "Blackened steel connectors and flashings",
+        "Forest understory planting"
+      ],
+      "context": "Conceptual setting — a high forested ridge in the western Himalaya, India",
+      "functionalBrief": "The lodge serves overnight guests seeking a comfortable mountain base, with accessible shared dining and sheltered gathering spaces. Staff need discreet receiving, housekeeping, laundry, plant and waste functions that operate independently of the guest court and remain usable in snow and heavy rain.",
+      "programme": [
+        "24 guest rooms",
+        "Reception and lounge",
+        "Shared dining room",
+        "Commercial kitchen and pantry",
+        "Sheltered arrival court",
+        "Housekeeping and linen store",
+        "Laundry and staff support",
+        "Plant, refuse and delivery area"
+      ],
+      "floorOrSiteOrganization": "Step compact two- and three-storey wings along verified ridge contours, grouping guest rooms around a protected arrival court and locating dining toward the valley outlook. Put reception at the accessible entry, connect rooms by short internal corridors, and keep kitchen receiving, refuse and plant access on the uphill service edge; provide two separated protected escape routes from upper accommodation subject to code and fire review.",
+      "areaOrScale": "Proposal-stage allowance: approximately 2,100–2,500 m² gross floor area over two to three levels, 24 rooms, on an approximately 0.8–1.2 ha sloping site; final capacity and footprint depend on survey, access and slope stability.",
+      "structuralSystem": "Use a regular engineered timber frame for guest wings and dining hall, with typical 4–5 m room bays and locally reinforced steel connections; concrete or stone-faced retaining/ground walls anchor the slope. Provide braced wall lines and a stiff stair/service core for lateral resistance, designed for the site-specific seismic, snow and wind loads.",
+      "constructionLogic": "Survey rock, trees and drainage before limited stepped excavation; build engineered retaining walls with free-draining backfill, filter fabric and weep outlets. Assemble the stone plinth and timber frame on a damp-proof separation, then install continuous insulated roof, ventilated slate battens, flashings and snow guards; detail window heads, sills and eaves to drain outward and protect exposed timber.",
+      "environmentalResponse": "Orient principal shared glazing toward the verified valley aspect while limiting exposed cold-wind openings; use deep reveals, insulated low-e glazing and operable shutters for seasonal control. Capture winter sun where appropriate, provide controllable high-level purge vents, and route roof and snowmelt water to stabilized swales that discharge safely without loading the slope.",
+      "visualAnchors": [
+        "Stepped cluster of two- and three-storey lodge wings following a steep forested ridge contour",
+        "Steep continuous dark slate roofs with deep eaves and pronounced snow-shedding pitches",
+        "Grey stone retaining base beneath timber-clad upper walls with deep-set rectangular windows",
+        "Sheltered central arrival court, dry-stone terraces and native forest understory",
+        "High Himalayan ridge setting with conifers, distant valley outlook and cool mountain light"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    },
+    {
+      "id": "hillside-retreat",
+      "slug": "hillside-retreat",
+      "title": "Hillside Retreat Study",
+      "category": "Hospitality",
+      "typology": "Resort villas",
+      "location": "Proposed site context · location not specified",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/hillside-retreat-hospitality-resort",
+      "gallery": [
+        {
+          "id": "projects/hillside-retreat-hospitality-resort",
+          "assetKey": "hillside-retreat-hospitality-resort",
+          "sourceId": "render-hospitality-resort",
+          "view": "Hero coastal retreat exterior",
+          "alt": "Proposed design visualization of terraced low-rise resort villas stepping down toward the sea.",
+          "sourceType": "existing",
+          "sourcePath": "assets/generated-originals/render-hospitality-resort-original.jpg",
+          "scenePrompt": ""
+        },
+        {
+          "id": "projects/hillside-retreat-resort-suite",
+          "assetKey": "hillside-retreat-resort-suite",
+          "sourceId": "render-resort-suite",
+          "view": "Guest villa terrace perspective",
+          "alt": "Guest villa terrace with a shaded bedroom opening toward the coastal landscape and plunge pool.",
+          "sourceType": "existing",
+          "sourcePath": "assets/generated-originals/render-resort-suite-original.jpg",
+          "scenePrompt": ""
+        },
+        {
+          "id": "projects/hillside-retreat-aerial-site",
+          "assetKey": "hillside-retreat-aerial-site",
+          "view": "Aerial terrain and guest-villa composition",
+          "alt": "High oblique view of villas, access paths, planted terraces and the coastal slope.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/hillside-retreat-aerial-site.jpg",
+          "referencePath": null,
+          "scenePrompt": "High oblique aerial of the same low-rise retreat following a realistic coastal hillside contour. Show discreet arrival access, service route, planted buffers, guest terraces and pools without excessive earthworks. Preserve the established villa roof and glazing language."
+        },
+        {
+          "id": "projects/hillside-retreat-suite-interior",
+          "assetKey": "hillside-retreat-suite-interior",
+          "view": "Guest suite interior",
+          "alt": "Guest suite interior with a shaded bed, sitting area and framed sea view.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/hillside-retreat-suite-interior.jpg",
+          "referencePath": null,
+          "scenePrompt": "Interior view of a guest suite within the same hillside retreat: realistic bed and storage layout, shaded glazing, simple sitting area and a private terrace beyond. Keep the timber roof, pale rendered walls, dark frames and coastal planting consistent."
+        },
+        {
+          "id": "projects/hillside-retreat-stone-timber-detail",
+          "assetKey": "hillside-retreat-stone-timber-detail",
+          "view": "Stone, timber and terrace detail",
+          "alt": "Close view of the villa roof edge, stone terrace wall, glazing and native planting.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/hillside-retreat-stone-timber-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Close architectural detail of the retreat timber roof overhang, rendered wall, dark glazing frame, stone terrace retaining wall and native planting. Show credible waterproofing and drainage transitions; preserve the original materials."
+        }
+      ],
+      "summary": "A low-rise guest retreat follows a coastal slope, arranging shaded villas, private terraces and planted buffers around a clear arrival route.",
+      "designIntent": "Each villa occupies its own terrace, with a timber roof, a glazed living room and a private pool. The stepped arrangement gives every unit a sea view while preserving planting between buildings.",
+      "approach": [
+        "Terraces follow the slope to limit earthworks",
+        "Roof overhangs for shade",
+        "Planting retained between units for privacy"
+      ],
+      "materials": [
+        "Rendered walls",
+        "Timber roofs",
+        "Glazing",
+        "Planted terraces"
+      ],
+      "context": "Imagined as a coastal hillside site.",
+      "functionalBrief": "The retreat provides private guest accommodation with shaded outdoor sitting and optional plunge pools while retaining a quiet landscape setting. Operations require a legible accessible arrival, housekeeping circulation, linen and plant stores, waste collection and a service route that avoids crossing private guest terraces.",
+      "programme": [
+        "18 guest suites",
+        "Reception and small lounge",
+        "Breakfast room and pantry",
+        "Guest terraces",
+        "Optional plunge pools",
+        "Housekeeping/linen store",
+        "Staff and maintenance room",
+        "Service access and refuse holding"
+      ],
+      "floorOrSiteOrganization": "Place small low-rise villa clusters on surveyed stable benches, with paths following contours and step-free access to a selection of rooms; connect arrival and reception at the upper access point. Keep guest paths and terraces on the view side, with a discreet service lane and utility spine behind, and maintain planted buffers and downhill drainage corridors; provide code-compliant accessible routes and separated egress from each cluster.",
+      "areaOrScale": "Proposal-stage allowance: 18 suites averaging 45–55 m² internal area, approximately 1,500–1,900 m² total gross floor area including shared/support space, mostly one storey, on an approximately 2–3 ha sloping coastal site; all dimensions are approximate pending survey.",
+      "structuralSystem": "Use repetitive short-span reinforced-concrete or engineered-timber frames, typically 3.6–4.2 m room bays, with lightweight timber roof trusses; use engineered retaining structures only where necessary. Foundations should be stepped and verified by geotechnical investigation, with lateral bracing and connections designed for local seismic and coastal wind conditions.",
+      "constructionLogic": "Build from surveyed access and drainage; phase small retaining walls and foundations to avoid destabilizing the slope, then assemble repeatable room modules and roof frames. Provide a continuous waterproofed terrace build-up with falls, threshold upstands and accessible drains; separate timber from masonry with capillary breaks, and route pool overflow and backwash to approved treatment rather than downslope discharge.",
+      "environmentalResponse": "Orient suite openings and private terraces toward views while using deep roof overhangs, external screens and cross-ventilation to manage sun and humid air. Preserve existing trees, limit cut-and-fill, harvest roof runoff for landscape use, and use native coastal planting, permeable paths and planted swales to slow monsoon runoff; verify setbacks and coastal hazard constraints before fixing the site plan.",
+      "visualAnchors": [
+        "Low-rise guest villas stepping with a realistic coastal slope",
+        "Shaded timber roof edges and pale rendered walls",
+        "Dark framed glazing with private guest terraces",
+        "Native coastal planting and limited retaining walls",
+        "Clear arrival, pedestrian paths and unobtrusive service access"
+      ],
+      "services": [],
+      "origin": "Existing TOP website project identity; presented as a proposed design."
+    },
+    {
+      "id": "hosp-konkan-coastal-retreat",
+      "slug": "laterite-tide-retreat",
+      "title": "Laterite Tide Retreat",
+      "category": "Hospitality",
+      "typology": "Tropical coastal retreat and low-rise lodge",
+      "location": "Conceptual setting — a sheltered Konkan coast inlet in western India",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/laterite-tide-retreat-hero",
+      "gallery": [
+        {
+          "id": "projects/laterite-tide-retreat-hero",
+          "assetKey": "laterite-tide-retreat-hero",
+          "view": "Oblique view across rain garden toward lodging verandah",
+          "alt": "Low laterite-and-limewashed lodging bars sit behind a coastal grove with a continuous shaded verandah.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/laterite-tide-retreat-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique view across a rain garden toward the same low two-storey Konkan retreat; preserve contour-following linear lodging bars, shallow-pitched muted metal roofs with broad verandah overhangs, laterite end walls, pale limewashed façades, timber shutters, raised basalt plinths and retained coastal grove; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/laterite-tide-retreat-alternate",
+          "assetKey": "laterite-tide-retreat-alternate",
+          "view": "Covered verandah looking along the coast-facing elevation",
+          "alt": "A deep shaded verandah links guest-room openings along the limewashed coastal-facing elevation.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/laterite-tide-retreat-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, eye-level view from the covered verandah along the same linear lodging bar; preserve the shallow-pitched metal roof and broad overhang, laterite end walls, pale limewashed façade, protected timber shutters, basalt plinth and glimpses of rain gardens and coastal grove; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/laterite-tide-retreat-aerial",
+          "assetKey": "laterite-tide-retreat-aerial",
+          "view": "High oblique view of stepped bars and rain gardens",
+          "alt": "Aerial view shows the retreat's low stepped bars set behind a dense coastal grove.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/laterite-tide-retreat-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial view of the same retreat's low two-storey linear bars stepping along the sheltered Konkan contour; preserve shallow-pitched muted metal roofs, continuous verandahs, laterite walls, pale façades, rain gardens, permeable paths and retained coastal grove; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/laterite-tide-retreat-functional",
+          "assetKey": "laterite-tide-retreat-functional",
+          "view": "Rain-protected guest-room threshold",
+          "alt": "Protected shutters and a raised verandah form a weather-buffered threshold between room and garden.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/laterite-tide-retreat-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional close-wide view of the same guest-room threshold showing operable timber shutters opening onto a continuous covered verandah; preserve pale limewashed wall, laterite return wall, broad muted metal roof overhang, basalt plinth, rain garden and coastal grove beyond; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/laterite-tide-retreat-detail",
+          "assetKey": "laterite-tide-retreat-detail",
+          "view": "Monsoon roof edge and laterite plinth detail",
+          "alt": "The broad metal roof edge sheds monsoon rain beyond a laterite wall and raised basalt plinth.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/laterite-tide-retreat-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural material detail of the same Konkan retreat, framing the shallow-pitched muted metal roof edge, deep timber soffit, pale limewash over laterite masonry and raised rough-cut basalt plinth beside rain-garden planting; preserve the project's coastal grove setting and exact material character; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A low, linear retreat follows the landward edge of a coastal grove, pairing robust laterite walls with deep monsoon verandahs. Guest rooms open to planted rain gardens rather than repeating freestanding pool villas.",
+      "designIntent": "The retreat is a sequence of compact two-storey lodging bars and shared pavilions set behind a coastal grove, lifted slightly above seasonal runoff on a continuous stone plinth. Long verandahs and ventilated service spines create a shaded buffer between rooms and the rain-soaked landscape. Laterite masonry, lime finishes and restrained metal roof edges respond to heavy monsoon weather; openings are oriented to capture sea breezes while solid end walls temper wind-driven rain. The architecture remains low, porous and subordinate to the existing coastal vegetation.",
+      "approach": [
+        "Set lodging bars parallel to the contour behind retained coastal trees, avoiding exposed dune edges.",
+        "Raise occupied floors above runoff paths and connect them with covered, step-free verandahs.",
+        "Use deep overhangs, protected operable shutters and screened service zones for monsoon resilience.",
+        "Treat rain gardens and permeable paths as the primary stormwater system, with overflow directed away from the shore."
+      ],
+      "materials": [
+        "Locally sourced laterite masonry",
+        "Pale limewash render",
+        "Standing-seam muted zinc-aluminum roofing",
+        "Oiled hardwood verandah soffits and shutters",
+        "Rough-cut basalt plinth and path edging",
+        "Coastal native grasses and trees"
+      ],
+      "context": "Conceptual setting — a sheltered Konkan coast inlet in western India",
+      "functionalBrief": "The retreat accommodates guests in low-rise rooms with sheltered verandahs and convenient access to shared dining and landscape paths. Daily operations need weather-protected housekeeping, staff support, kitchen receiving and waste handling, with service movement separated from guest arrival and retained coastal vegetation.",
+      "programme": [
+        "30 guest rooms",
+        "Reception and lounge",
+        "Dining room",
+        "Kitchen and pantry",
+        "Covered guest verandahs",
+        "Housekeeping and linen stores",
+        "Staff support and laundry",
+        "Service yard and refuse room"
+      ],
+      "floorOrSiteOrganization": "Arrange two-storey lodging bars parallel to surveyed contours behind retained coastal trees, with verandahs facing planted courts rather than exposed shore edges. Locate reception at the accessible arrival and dining near the common path; keep kitchens, deliveries and refuse landward on a service spur, connect bars with step-free covered routes, and maintain clear emergency access and egress independent of rain-garden channels.",
+      "areaOrScale": "Proposal-stage allowance: about 30 rooms at 32–38 m² each, approximately 2,000–2,400 m² gross floor area over one to two levels, on roughly 1.5–2 ha; room count, coastal buffers and buildable area require survey and statutory review.",
+      "structuralSystem": "Adopt a regular 3.6–4.2 m room-bay system using reinforced-concrete or confined masonry frames with laterite infill, and lightweight timber or steel roof trusses spanning verandahs. Use raised reinforced-concrete foundations/plinths with locally appropriate lateral bracing, and design for wind uplift, seismic demand and corrosion exposure.",
+      "constructionLogic": "Establish finished floor levels above mapped runoff and flood conditions, then construct raised plinths with damp-proofing and durable splash-zone finishes. Build laterite masonry and lime-rendered walls, install corrosion-resistant roof framing and ventilated standing-seam roofing, and provide continuous eave gutters, downpipes and accessible surface drains; detail shutter tracks and verandah thresholds for wind-driven rain and maintenance.",
+      "environmentalResponse": "Use broad verandahs and external timber shutters to shade openings, orient room bars for cross-breezes, and avoid large unprotected west-facing glazing. Retain coastal grove and dunes, use rain gardens and permeable paths for monsoon water, harvest roof runoff where useful, and keep wastewater treatment and overflow away from sensitive estuary or shoreline habitats.",
+      "visualAnchors": [
+        "Low two-storey linear lodging bars stepping gently along a sheltered coastal contour",
+        "Simple shallow-pitched metal roofs with broad continuous verandah overhangs",
+        "Laterite end walls and pale limewashed façades with protected timber shutters and screened openings",
+        "Raised rough-cut basalt plinths, open verandahs and permeable paths through rain gardens",
+        "Konkan inlet setting with retained coastal grove, salt-tolerant native planting and monsoon cloud light"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    },
+    {
+      "id": "hosp-konkan-dining-destination",
+      "slug": "estuary-table-dining-hall",
+      "title": "The Estuary Table",
+      "category": "Hospitality",
+      "typology": "Luxury restaurant and dining destination",
+      "location": "Conceptual setting — a tidal estuary edge in coastal Maharashtra, western India",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/estuary-table-hero",
+      "gallery": [
+        {
+          "id": "projects/estuary-table-hero",
+          "assetKey": "estuary-table-hero",
+          "view": "Oblique terrace arrival view toward folded roof",
+          "alt": "A long timber-roofed dining hall opens from a basalt terrace toward an estuary garden.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/estuary-table-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique arrival view of the same elongated estuary restaurant; preserve its raised dark basalt terrace, folded timber roof with ventilated high ridge and deep verandah, pale limewashed landward service spine, operable hardwood screens, rain-fed arrival water court and mangrove-edge garden; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/estuary-table-alternate",
+          "assetKey": "estuary-table-alternate",
+          "view": "Estuary-facing verandah elevation",
+          "alt": "Operable hardwood screens line the deep verandah beneath the restaurant's folded roof.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/estuary-table-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, eye-level estuary-facing elevation of the same dining hall; preserve the single elongated volume, folded ventilated timber roof, generous eaves, deep verandah, operable hardwood screens, pale service spine, basalt plinth and mangrove-edged estuary; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/estuary-table-aerial",
+          "assetKey": "estuary-table-aerial",
+          "view": "High oblique view of roof, terrace and water court",
+          "alt": "Aerial view shows the restaurant's folded roof, long terrace, service spine and rain-fed arrival court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/estuary-table-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial of the same restaurant; preserve one elongated dining hall under a folded timber roof, landward kitchen spine, raised basalt terrace, small arrival water court and estuary garden with retained mangrove vegetation; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/estuary-table-functional",
+          "assetKey": "estuary-table-functional",
+          "view": "Dining room looking through screens to estuary",
+          "alt": "The dining hall's tall ventilated interior frames filtered estuary views through operable screens.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/estuary-table-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional interior view through the same restaurant's dining hall toward the estuary; preserve the folded exposed timber roof and high ventilated ridge, operable hardwood screens, dark basalt terrace at the threshold, pale landward service spine and mangrove-edge landscape beyond; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/estuary-table-detail",
+          "assetKey": "estuary-table-detail",
+          "view": "Folded roof eave and screen connection",
+          "alt": "Timber roof structure, deep eave and operable hardwood screen meet above the basalt terrace.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/estuary-table-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural detail visualization of the same estuary restaurant, framing folded timber roof structure, ventilated ridge and deep eave above an operable hardwood screen; include pale limewashed wall, dark basalt terrace edge and subtle mangrove planting beyond, preserving the established form and materials; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A destination restaurant is conceived as a long dining hall beneath a dramatic folded roof, with kitchens and service tucked into a solid landward spine. A sheltered water court and verandah create a memorable arrival without relying on a villa-like resort language.",
+      "designIntent": "The restaurant is a single, elongated dining hall set on a raised stone terrace between an estuary garden and a landward service yard. A folded timber roof forms a generous, high-volume interior and deep verandah, while a band of operable screens frames filtered views of water and mangrove planting. The kitchen and back-of-house functions occupy a compact solid spine to keep guest circulation clear. A rain-fed water court marks arrival and provides a calm outdoor dining threshold, with the roof designed to ventilate hot air and shed intense monsoon rain.",
+      "approach": [
+        "Place the dining hall along the estuary edge while keeping kitchens, deliveries and waste handling on the landward side.",
+        "Use a high ventilated roof ridge and protected operable screens to support passive cooling in humid weather.",
+        "Raise the dining terrace above routine tidal and stormwater levels, with landscape buffers retained at the water edge.",
+        "Plan a clear service loop and acoustic separation between kitchen operations, private dining and the main hall."
+      ],
+      "materials": [
+        "Weathering local hardwood roof structure",
+        "Pale limewashed masonry service spine",
+        "Dark basalt terrace and plinth",
+        "Operable hardwood screens",
+        "Hand-finished copper rainwater leaders",
+        "Mangrove-edge and estuary native planting"
+      ],
+      "context": "Conceptual setting — a tidal estuary edge in coastal Maharashtra, western India",
+      "functionalBrief": "The restaurant serves seated dining and small private gatherings with a clear accessible arrival and sheltered outdoor spill-out. Kitchen staff need a direct receiving-to-storage-to-prep-to-pass sequence, separate clean and waste routes, and robust plant, cold storage and refuse functions without crossing the principal guest hall.",
+      "programme": [
+        "Main dining hall (approximately 90 covers)",
+        "Two private dining rooms",
+        "Commercial kitchen and pass",
+        "Cold/dry stores and receiving",
+        "Accessible entry foyer and toilets",
+        "Estuary-facing verandah",
+        "Staff changing/support",
+        "Plant and screened refuse yard"
+      ],
+      "floorOrSiteOrganization": "Place the single elongated hall along the estuary garden behind a verified flood-safe setback, with the verandah and guest entry facing the landscape. Put kitchen, stores, toilets and plant in the landward service spine; connect delivery access directly to receiving and refuse holding, separate guest arrival from service movement, and provide accessible exit routes at both ends of the hall with clear discharge to safe ground.",
+      "areaOrScale": "Proposal-stage allowance: approximately 850–1,050 m² enclosed gross floor area plus 250–350 m² verandah/terrace, with about 90 dining covers and two small private rooms, on a 0.3–0.5 ha site; flood levels, setbacks and capacity are approximate pending approvals.",
+      "structuralSystem": "Use a regular timber or glulam portal frame with 6–8 m bays supporting the folded roof and clear dining volume; keep the kitchen spine in reinforced-concrete or engineered masonry for services and lateral stability. Provide corrosion-resistant steel connections and foundations designed for saturated soils, wind uplift and any locally applicable flood/scour conditions.",
+      "constructionLogic": "Set the occupied terrace above the confirmed design flood level without blocking natural flow, and use raised foundations suited to geotechnical findings. Erect the service spine and portal frames, then install a drained, ventilated roof build-up with continuous waterproof membrane, controlled valley gutters and overflow scuppers; flash screen tracks and verandah edges, and provide accessible cleanouts and grease/waste separation in the kitchen drainage system.",
+      "environmentalResponse": "Orient screened dining openings to capture prevailing breezes while controlling low-angle sun and wind-driven rain with deep eaves and operable hardwood screens. Use a high ventilated ridge and ceiling fans, diffuse daylight, retain mangrove-edge buffers, and collect roof water to cisterns/rain gardens with safe overflow; use recirculating water features only if water balance and maintenance support them.",
+      "visualAnchors": [
+        "Single elongated dining hall with a solid landward kitchen spine and raised estuary-facing terrace",
+        "Large folded timber roof with ventilated high ridge, generous eaves and deep verandah",
+        "Pale limewashed service walls, operable hardwood screens and dark basalt terrace plinth",
+        "Small rain-fed arrival water court, estuary garden and retained mangrove-edge vegetation",
+        "Coastal Maharashtra estuary setting with humid light, monsoon sky and no resort-villa forms"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    },
+    {
+      "id": "hosp-jaipur-business-hotel",
+      "slug": "jaipur-courtyard-business-hotel",
+      "title": "The Jaipur Exchange",
+      "category": "Hospitality",
+      "typology": "Contemporary business hotel and conference hotel",
+      "location": "Conceptual setting — a transit-oriented district on the edge of Jaipur, Rajasthan",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/jaipur-exchange-hero",
+      "gallery": [
+        {
+          "id": "projects/jaipur-exchange-hero",
+          "assetKey": "jaipur-exchange-hero",
+          "view": "Oblique arrival view across the water court",
+          "alt": "The sandstone-screened guest-room slab rises above the hotel's conference podium and water court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/jaipur-exchange-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique arrival view across the rectangular water court of the same contemporary Jaipur business hotel; preserve mid-rise guest-room slab over broad podium, flat rooflines, regular pink-beige sandstone brise-soleil, recessed glazing, shaded arcade and drought-tolerant planting in a dry Jaipur setting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/jaipur-exchange-alternate",
+          "assetKey": "jaipur-exchange-alternate",
+          "view": "Street-level view along shaded event entrance",
+          "alt": "A shaded podium arcade leads to the conference entrance beneath the sandstone-screened hotel tower.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/jaipur-exchange-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, street-level view along the shaded event entrance of the same hotel; preserve the broad conference podium, guest-room slab above, flat roofs, projecting warm sandstone screen grid, recessed glazing, Jaipur stone paving and restrained drought-tolerant landscape; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/jaipur-exchange-aerial",
+          "assetKey": "jaipur-exchange-aerial",
+          "view": "High oblique massing view of slab and podium",
+          "alt": "Aerial view clarifies the compact guest-room slab, broad event podium and central water court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/jaipur-exchange-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial view of the same business hotel; preserve rectangular mid-rise slab on a broad conference-and-dining podium, flat roofs, sandstone screen grid, central rectangular water court, shaded arcade and sparse arid planting within Jaipur edge-district context; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/jaipur-exchange-functional",
+          "assetKey": "jaipur-exchange-functional",
+          "view": "Conference foyer facing the water court",
+          "alt": "The conference foyer opens through recessed glazing toward the shaded water court and arrival arcade.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/jaipur-exchange-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional view from the same hotel's conference foyer toward the rectangular water court; preserve the podium scale, recessed high-performance glazing, warm sandstone screen visible outside, shaded arcade, stone paving and drought-tolerant planting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/jaipur-exchange-detail",
+          "assetKey": "jaipur-exchange-detail",
+          "view": "Sandstone brise-soleil and recessed glazing close view",
+          "alt": "Projecting Rajasthan sandstone fins shade deeply recessed glazing on the regular tower façade.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/jaipur-exchange-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural detail visualization of the same Jaipur hotel façade, close view emphasizing the regular projecting pink-beige sandstone brise-soleil, deep window reveal and recessed low-e glazing; retain flat-roofed slab geometry and a subtle glimpse of the arid planted water court below; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A contemporary business hotel combines a clear tower-and-podium composition with shaded meeting terraces and a water court. Sandstone screens reinterpret Rajasthan's heat-control traditions as a precise contemporary façade system.",
+      "designIntent": "The hotel uses a compact guest-room slab above a broad conference and dining podium, keeping the arrival, event and accommodation functions legible and independently accessible. A sandstone screen wraps sun-exposed elevations, calibrated to shade glazing while maintaining views and daylight. At ground level, a rectangular water court cools the arrival sequence and organizes public circulation. The massing is contemporary rather than palatial: a disciplined grid, deep reveals and robust stone surfaces respond to Jaipur's intense sun and seasonal dust, with high-performance glazing and efficient services behind the outer veil.",
+      "approach": [
+        "Separate event arrivals from hotel check-in while connecting both through a shaded public lobby and water court.",
+        "Tune sandstone screen density by orientation and pair it with recessed high-performance glazing.",
+        "Use shaded podium terraces as spill-out zones for meeting breaks, protected from direct afternoon sun.",
+        "Integrate greywater reuse and efficient cooling plant with a landscape strategy suited to arid conditions."
+      ],
+      "materials": [
+        "Warm pink-beige Rajasthan sandstone",
+        "High-performance low-e glazing",
+        "Precast concrete podium structure",
+        "Brushed bronze-toned aluminum screen supports",
+        "Local stone court paving",
+        "Drought-tolerant native planting"
+      ],
+      "context": "Conceptual setting — a transit-oriented district on the edge of Jaipur, Rajasthan",
+      "functionalBrief": "The hotel supports overnight business travelers, meetings and conferences, with clear independent event and guest check-in options. Operations require efficient room servicing, banquet kitchen logistics, loading, plant access and secure back-of-house circulation, while public spaces remain accessible and legible from the shaded arrival court.",
+      "programme": [
+        "96 guest rooms",
+        "Hotel lobby and reception",
+        "All-day dining room",
+        "Conference hall (approximately 250 seats)",
+        "Meeting rooms and pre-function foyer",
+        "Banquet kitchen and stores",
+        "Housekeeping and linen rooms",
+        "Loading, plant and service yard"
+      ],
+      "floorOrSiteOrganization": "Organize guest-room floors in a compact mid-rise slab above a broad podium; place conference entry and pre-function spaces at grade facing the shaded arcade, with a distinct hotel lobby/check-in beside the water court. Locate loading, kitchen receiving, waste and plant on a screened service edge, separate vertical guest, event and service circulation, and provide protected stairs and fire-service access per code.",
+      "areaOrScale": "Proposal-stage allowance: approximately 7,500–9,000 m² gross floor area, around 96 rooms over 7–9 levels including podium, a 250-seat conference hall and associated meeting rooms, on an approximately 0.8–1.2 ha urban site; all areas and heights are approximate.",
+      "structuralSystem": "Use a reinforced-concrete beam-and-slab or flat-slab guest-room frame on a regular 7.2–8.4 m grid, with compact reinforced-concrete stair/lift cores providing lateral stability. Transfer structure at podium interfaces should be minimized; use longer-span post-tensioned or composite beams only over conference volumes, subject to engineering and fire design.",
+      "constructionLogic": "Confirm geotechnical and utility conditions before basement or foundation decisions; coordinate a repeatable room-module grid with risers and façade anchors. Cast the podium and core, then repetitive upper floors; install sandstone brise-soleil on engineered brackets with movement joints, drained cavity and replaceable fixings, and detail roof, court and water-feature membranes with accessible drains, overflow and maintenance access.",
+      "environmentalResponse": "Use orientation-specific sandstone fins and recessed low-e glazing, especially on east/west façades, with shaded arcades and court edges limiting heat gain. Provide efficient chilled-water or VRF systems with heat recovery as appropriate, daylight controls, water-efficient fixtures and treated greywater for landscape; keep water court recirculation shaded and modest in area to limit evaporation.",
+      "visualAnchors": [
+        "Rectangular mid-rise guest-room slab rising above a broad low conference and dining podium",
+        "Flat rooflines and a regular projecting sandstone brise-soleil grid on sun-exposed elevations",
+        "Warm pink-beige sandstone screen with recessed high-performance glazing and deep window reveals",
+        "Ground-level rectangular water court, shaded arrival arcade and sparse drought-tolerant planting",
+        "Jaipur edge-district setting under strong dry light with a contemporary, non-palatial character"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    },
+    {
+      "id": "hosp-heritage-courtyard-house",
+      "slug": "monsoon-courtyard-house",
+      "title": "The Monsoon Courtyard House",
+      "category": "Hospitality",
+      "typology": "Boutique heritage-inspired courtyard hotel",
+      "location": "Conceptual setting — a compact old-town lane in Kerala, southern India",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/monsoon-courtyard-house-hero",
+      "gallery": [
+        {
+          "id": "projects/monsoon-courtyard-house-hero",
+          "assetKey": "monsoon-courtyard-house-hero",
+          "view": "Oblique courtyard-level arrival view",
+          "alt": "The pale-rendered two-storey courtyard hotel with its tiled pitched roof enclosing a planted stone court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/monsoon-courtyard-house-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique courtyard-level arrival view of the same compact two-storey U-shaped Kerala-inspired hotel: preserve the planted open court, steep layered terracotta clay-tile roof with deep eaves, pale lime-rendered walls, timber-framed openings and screens, dark stone paving, rain basin and tropical shade planting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/monsoon-courtyard-house-alternate",
+          "assetKey": "monsoon-courtyard-house-alternate",
+          "view": "Street approach at eye level",
+          "alt": "A restrained lime-rendered street façade beneath deep terracotta eaves on a narrow Kerala town lane.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/monsoon-courtyard-house-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, eye-level street approach showing the quiet nearly solid lane façade of the same U-shaped hotel; preserve its two-storey scale, steep layered terracotta tile roof, deep eaves, pale lime render, timber-framed openings and glimpses of the planted stone courtyard beyond; retain the Kerala town-lane setting, no people, signage, text or logos."
+        },
+        {
+          "id": "projects/monsoon-courtyard-house-aerial",
+          "assetKey": "monsoon-courtyard-house-aerial",
+          "view": "High oblique roof and courtyard view",
+          "alt": "High oblique view revealing the tiled roof wings and open planted courtyard at the hotel's center.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/monsoon-courtyard-house-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial view of the same compact U-shaped two-storey hotel; clearly preserve the steep layered terracotta clay-tile roof, deep eaves, pale rendered wings enclosing one open planted courtyard, stone paving, shallow rain basin and surrounding Kerala town-lane context; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/monsoon-courtyard-house-functional",
+          "assetKey": "monsoon-courtyard-house-functional",
+          "view": "Courtyard gallery looking toward guest-room doors",
+          "alt": "The shaded timber-screened gallery connects guest rooms around the planted court and rainwater basin.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/monsoon-courtyard-house-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional view along the shaded courtyard gallery of the same hotel, showing the guest-room doors and operable timber screens; preserve the U-shaped plan, pale lime-rendered walls, terracotta roof eaves, dark stone courtyard, rain basin and tropical planting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/monsoon-courtyard-house-detail",
+          "assetKey": "monsoon-courtyard-house-detail",
+          "view": "Close detail of eave, screen and rain chain",
+          "alt": "Close view of handmade clay tiles, hardwood screen joinery and a rain chain above the stone court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/monsoon-courtyard-house-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural material detail of the same Kerala-inspired hotel, framing handmade terracotta roof tiles and deep eave above pale lime render, timber screen joinery and a rain chain dropping toward the dark stone court; retain the same courtyard planting as context and do not alter the roof, façade or material palette; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A small urban hotel organized around a shaded planted court, translating familiar Kerala courtyard and clay-tile traditions into a restrained contemporary hospitality setting. Its inward-facing plan offers calm away from the street without imitating a historic palace.",
+      "designIntent": "The hotel is conceived as a compact, inward-turning sequence of rooms around a planted open-to-sky courtyard, with a shaded circulation gallery forming the social heart. A steep, layered clay-tile roof shelters the perimeter while a discreet rainwater chain feeds a stone basin in the court. Lime-rendered walls, timber screens and carefully scaled openings reinterpret Kerala domestic building logic for a contemporary boutique stay, prioritizing cross-ventilation, filtered daylight and legible transitions between public and private spaces.",
+      "approach": [
+        "Arrange guest rooms on two courtyard-facing wings and keep the street edge quiet and secure.",
+        "Use the open court and operable timber screens to support cross-ventilation and daylight while maintaining privacy.",
+        "Collect roof runoff visibly and route it to the planted courtyard basin and a concealed storage cistern.",
+        "Keep detailing contemporary and restrained; use local craft through proportion, joinery and tile rather than applied historic ornament."
+      ],
+      "materials": [
+        "Pale lime render",
+        "Handmade terracotta clay roof tiles",
+        "Dark stained local hardwood screens and rafters",
+        "Locally quarried dark stone paving",
+        "Brushed brass hardware",
+        "Native shade planting"
+      ],
+      "context": "Conceptual setting — a compact old-town lane in Kerala, southern India",
+      "functionalBrief": "The boutique hotel offers a calm, secure stay in compact guest rooms arranged around a planted courtyard, with an accessible reception and breakfast/lounge space. Housekeeping, laundry, kitchen support, refuse and maintenance must operate efficiently on the constrained town plot while preserving a quiet lane frontage and clear emergency access.",
+      "programme": [
+        "20 guest rooms",
+        "Reception and lounge",
+        "Breakfast room",
+        "Pantry and service kitchen",
+        "Open planted courtyard",
+        "Shaded guest galleries",
+        "Housekeeping and linen store",
+        "Laundry, staff support and refuse"
+      ],
+      "floorOrSiteOrganization": "Use a compact two-storey U-shaped plan with reception and controlled entry from the lane, shared lounge/dining near the courtyard, and room wings connected by shaded galleries. Place pantry, laundry, refuse and building services along the least public edge with a discreet service gate; keep courtyard planting and rain basin clear of required exit paths and provide two remote escape directions where code requires.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1,200–1,500 m² gross floor area over two levels, 20 rooms averaging 28–34 m², on a compact 700–1,000 m² urban plot; room count and court dimensions remain approximate pending survey and fire/access review.",
+      "structuralSystem": "Use a regular reinforced-concrete frame with masonry infill and 3.6–4.2 m room bays, with the courtyard galleries supported on the same frame and restrained against lateral loads. Timber roof members can carry the tiled pitched roof over shorter spans; cores and stair walls provide stiffness, with foundations selected after assessment of adjacent buildings and soils.",
+      "constructionLogic": "Survey party walls and utilities, protect neighboring foundations, and build the frame and stair cores before infill. Install a ventilated, underlay-protected clay-tile roof with secure eaves, gutters and rain chains; waterproof the courtyard basin and paving separately, provide falls to trapped drains and overflow, and detail lime render, timber screens and wet-area thresholds for monsoon splash and drying.",
+      "environmentalResponse": "Open rooms to the internal court for soft daylight and cross-ventilation while screening direct views from the lane; use deep tiled eaves, operable timber screens and high-level vents for humid conditions. Capture roof runoff to a storage cistern and planted basin with a safe overflow, and specify shaded native planting and permeable surfaces without compromising accessible circulation.",
+      "visualAnchors": [
+        "Compact, two-storey U-shaped plan enclosing one planted open-to-sky courtyard",
+        "Steep layered pitched roof finished in terracotta clay tiles with deep eaves",
+        "Pale lime-rendered walls with regularly spaced timber-framed windows and operable timber screens",
+        "Dark stone court paving, a simple shallow rainwater basin and dense tropical shade planting",
+        "Kerala town-lane setting, with a quiet, nearly solid street façade and an open inward-facing gallery"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    },
+    {
+      "id": "hosp-deccan-wellness-retreat",
+      "slug": "deccan-water-court-wellness",
+      "title": "The Quiet Water Court",
+      "category": "Hospitality",
+      "typology": "Wellness and spa retreat",
+      "location": "Conceptual setting — a dry plateau grove in the Deccan region of India",
+      "year": null,
+      "client": null,
+      "award": null,
+      "kind": "proposal",
+      "status": "proposed",
+      "statusLabel": "Proposed Design",
+      "published": true,
+      "cover": "projects/quiet-water-court-hero",
+      "gallery": [
+        {
+          "id": "projects/quiet-water-court-hero",
+          "assetKey": "quiet-water-court-hero",
+          "view": "Oblique view over first water court and spa wings",
+          "alt": "A low basalt-and-plaster spa encloses a still rectangular court shaded by drought-adapted trees.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/quiet-water-court-hero.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, oblique view over the first water court of the same Deccan wellness retreat; preserve low one-storey inward-facing circuit, two linked rectangular courts, flat deep parapet roofs with discreet lanterns, thick basalt walls, pale mineral plaster, recessed openings and dry plateau grove; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/quiet-water-court-alternate",
+          "assetKey": "quiet-water-court-alternate",
+          "view": "Shaded passage between treatment wing and second court",
+          "alt": "A narrow covered walkway links treatment rooms and the second water court beneath deep parapet eaves.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/quiet-water-court-alternate.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, eye-level alternate view along the same spa's narrow covered passage between treatment wing and second water court; preserve low one-storey circuit, flat deep parapet roof, thick basalt and pale plaster walls, deeply recessed openings, textured paving and drought-adapted planting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/quiet-water-court-aerial",
+          "assetKey": "quiet-water-court-aerial",
+          "view": "High oblique plan view of linked courts and roof lanterns",
+          "alt": "Aerial view reveals the inward-facing spa circuit, paired water courts and discreet roof lanterns.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/quiet-water-court-aerial.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, high oblique aerial view of the same one-storey spa; preserve the inward-facing circuit enclosing exactly two linked rectangular water courts, flat deep parapet roofs, discreet lanterns, thick basalt wall composition, covered walkways and Deccan grove landscape; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/quiet-water-court-functional",
+          "assetKey": "quiet-water-court-functional",
+          "view": "Resting lounge facing a shaded water court",
+          "alt": "The quiet resting lounge looks through recessed openings to the shaded recirculating water court.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/quiet-water-court-functional.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural visualization, functional view from the same spa's resting lounge toward a shaded rectangular water court; preserve thick basalt walls with pale mineral plaster, deeply recessed openings, flat roof with discreet lantern daylight, textured stone paving and drought-adapted grove planting; no people, signage, text or logos."
+        },
+        {
+          "id": "projects/quiet-water-court-detail",
+          "assetKey": "quiet-water-court-detail",
+          "view": "Roof lantern, perforated screen and stone water edge detail",
+          "alt": "A discreet roof lantern and perforated screen cast controlled light beside the court's basalt water edge.",
+          "sourceType": "generate",
+          "sourcePath": "assets/generated-originals/projects/quiet-water-court-detail.jpg",
+          "referencePath": null,
+          "scenePrompt": "Architectural detail visualization of the same Deccan spa, framing a discreet roof lantern, bronze-toned perforated screen, pale mineral plaster over thick basalt wall and textured stone water-court edge; retain the flat parapet roof, controlled filtered light and drought-adapted grove in the background; no people, signage, text or logos."
+        }
+      ],
+      "summary": "A wellness retreat gathers treatment rooms and thermal spaces around a sequence of sheltered water courts, with thick stone walls moderating the plateau climate. The low, inward-looking plan prioritizes quiet, filtered light and shaded outdoor movement.",
+      "designIntent": "The spa is organized as a low, inward-facing circuit of treatment rooms, changing areas and thermal rooms around two linked water courts. Thick stone walls, narrow shaded passages and small high-level openings regulate heat and privacy, while roof lanterns admit controlled daylight to shared resting spaces. The plan separates quiet treatment zones from wet facilities and service access, allowing a calm, legible visitor sequence. A grove of drought-adapted trees cools the courts, and a recirculating water system minimizes evaporation and supports year-round use without turning the building into a collection of guest villas.",
+      "approach": [
+        "Create a quiet one-storey circuit with clear separation between treatment, thermal, wet and service functions.",
+        "Use deep-set openings and high roof lanterns for privacy, glare control and daylight without excessive solar gain.",
+        "Specify shaded water courts with recirculation, covered walkways and accessible step-free transitions.",
+        "Pair thick thermal-mass walls with night purge ventilation and drought-adapted grove planting."
+      ],
+      "materials": [
+        "Locally quarried warm grey basalt",
+        "Pale mineral lime plaster",
+        "Textured stone court paving",
+        "Oiled hardwood doors and ceiling slats",
+        "Bronze-toned perforated metal screens",
+        "Drought-tolerant native trees and grasses"
+      ],
+      "context": "Conceptual setting — a dry plateau grove in the Deccan region of India",
+      "functionalBrief": "The day-spa and retreat facility provides private treatments, changing and thermal/wet experiences alongside quiet rest spaces. Staff need separated clean linen, treatment setup, laundry, chemical and plant storage, and wet-area maintenance access; guest circulation should be calm, step-free and legible without crossing service routes.",
+      "programme": [
+        "Six treatment rooms",
+        "Reception and waiting lounge",
+        "Separate changing suites",
+        "Thermal rooms and showers",
+        "Resting lounge",
+        "Two linked water courts",
+        "Laundry and clean linen store",
+        "Plant, chemical store and service access"
+      ],
+      "floorOrSiteOrganization": "Keep the one-storey treatment circuit inward-facing, with reception at the public arrival, treatment rooms on the quiet perimeter and changing/thermal rooms grouped around the serviceable wet zone. Link two courts with covered accessible passages; place laundry, plant, chemical storage and deliveries on a screened outer edge, provide floor-drain access and maintain continuous egress routes that do not rely on crossing water courts.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1,600–2,000 m² single-storey gross floor area including support functions, six treatment rooms and two modest courts, on roughly 0.8–1.2 ha of plateau grove; pool/water capacity, setbacks and final dimensions are approximate.",
+      "structuralSystem": "Use load-bearing basalt or engineered masonry walls with reinforced-concrete bond beams and short-span concrete or steel roof framing, typically 4–6 m between supports. Reinforced-concrete cores and cross walls stabilize the low plan; roof lanterns use engineered curb frames and non-combustible glazing assemblies, with structure checked for seismic loads and thermal movement.",
+      "constructionLogic": "Build the compact low-rise wings on surveyed foundations with damp-proof courses, then install stone masonry, insulated flat roof decks and lantern curbs. Form roof falls to primary drains plus visible emergency overflows, use membrane upstands at parapets and lanterns, and detail water courts as independent waterproofed basins with recirculation plant, accessible balance tanks, non-slip edges and isolation joints from the building.",
+      "environmentalResponse": "Use thick shaded walls, recessed openings and carefully oriented roof lanterns to provide diffuse daylight without glare or excessive solar gain; favor cross-ventilation in dry seasons and efficient dehumidification for wet rooms. Shade both courts with drought-adapted trees, recirculate water and control evaporation, harvest roof runoff for non-potable use, and direct stormwater to planted swales without overwatering the plateau landscape.",
+      "visualAnchors": [
+        "Low one-storey inward-facing spa circuit enclosing two linked rectangular water courts",
+        "Flat, deep parapet roofs punctuated by discreet high roof lanterns",
+        "Thick basalt walls with pale mineral plaster, deeply recessed openings and perforated screens",
+        "Covered narrow walkways, textured stone paving and a recirculating water system",
+        "Dry Deccan plateau grove with drought-adapted trees and muted warm light"
+      ],
+      "services": [],
+      "origin": "New proposed project identity drafted for this portfolio expansion."
+    }
+  ]
+}

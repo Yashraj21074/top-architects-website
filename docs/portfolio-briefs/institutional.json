@@ -1,0 +1,142 @@
+{
+  "category": "Institutional",
+  "outputPath": "/home/ubuntu/work/top-upgrade/TOP-Architects-Partners-7/docs/portfolio-briefs/institutional.json",
+  "projects": [
+    {
+      "slug": "canopy-of-pages-library",
+      "functionalBrief": "The library supports quiet individual study, children’s learning, community programmes and accessible public access for residents throughout the day. Staff need clear sightlines across reading areas, controlled collections and after-hours separation of the book court and community rooms.",
+      "programme": [
+        "Entry, information desk and returns point",
+        "Children’s library and supervised activity room",
+        "Open-shelf lending and reading areas",
+        "Upper quiet reading galleries and study niches",
+        "Local reference and digital learning room",
+        "Multipurpose community room",
+        "Staff workroom, cataloguing and secure storage",
+        "Toilets, lift, stairs and building services",
+        "Planted book court and shaded reading colonnade"
+      ],
+      "floorOrSiteOrganization": "Place the public entrance and returns desk on the shaded colonnade, with children’s and community functions accessible at ground level near supervised exits. Arrange upper quiet-reading rings around the planted court; keep staff/collection handling and service access on a discreet perimeter route. Provide a legible accessible lift and protected stair pair, with courtyard and perimeter routes supporting independent egress subject to code review.",
+      "areaOrScale": "Proposal-stage allowance: approximately 2,400–3,000 m² gross floor area over 2 levels, with a central court of roughly 250–350 m² and shaded colonnade; final capacity and site coverage depend on local brief and approvals.",
+      "structuralSystem": "Regular reinforced-concrete frame with approximately 6–7.5 m planning bays, masonry infill and locally appropriate sandstone-faced base; perimeter piers support the colonnade. A lightweight steel roof-lantern frame spans the court, with secondary framing sized for maintenance access and wind loads.",
+      "constructionLogic": "Build the durable stone plinth and frame first, then infill walls and deep stone reveals; use drained, mechanically restrained cladding rather than relying on thin stone as structure. Assemble the lantern as a raised steel curb with flashed, replaceable terracotta screens and a concealed gutter; maintain a clear drainage route from the court to a planted infiltration area.",
+      "environmentalResponse": "Orient principal reading openings toward shaded court and controlled north or indirect light, avoiding direct sun on shelves; use deep sandstone reveals and terracotta screens on exposed elevations. The ventilated lantern brings diffuse top light with high-level purge openings, while colonnades and khejri shade reduce heat gain. Harvest roof runoff for the court and drought-tolerant planting, with overflow routed to gravel gardens."
+    },
+    {
+      "slug": "civic-hall",
+      "functionalBrief": "The hall provides a welcoming, barrier-free place for civic meetings, public services and community events, with an interior that can shift between daily use and larger gatherings. Staff require secure back-of-house support, clear public queuing and independent access for deliveries and event setup.",
+      "programme": [
+        "Sheltered public forecourt and arrival colonnade",
+        "Reception, information and controlled entry",
+        "Flexible civic assembly hall",
+        "Public meeting and consultation rooms",
+        "Administration and staff support rooms",
+        "Public toilets and accessible changing provision",
+        "Storage, loading and building services",
+        "Planted courtyard and shaded circulation"
+      ],
+      "floorOrSiteOrganization": "Use the processional forecourt and colonnade to lead to a visible central hall, with smaller meeting rooms in the quieter masonry wings. Locate administration adjacent to reception but behind controlled access; place loading, storage and plant at a screened service edge away from the main approach. Provide a step-free route, distributed exits from the assembly space and direct access to open air, with final occupant loads and fire separations verified in detailed design.",
+      "areaOrScale": "Proposal-stage allowance: approximately 3,000–3,800 m² gross floor area, predominantly one storey with limited service mezzanine if needed; main hall sized for roughly 350–500 people, subject to seating layout and code review, on a landscaped civic plot of about 0.8–1.2 ha.",
+      "structuralSystem": "Reinforced-concrete podium and masonry wing walls support a long-span steel truss or space-frame roof over the clear-span hall, with regular column bays at the colonnade and perimeter. Use appropriately braced lateral bays and a lightweight metal roof build-up; glazing is non-structural and separately supported.",
+      "constructionLogic": "Form the concrete podium and foundations after geotechnical and flood-level checks, then erect the hall roof steel in sequenced, braced bays before installing glazing. Build masonry wings with movement joints at long runs; provide continuous roof falls, concealed gutters and accessible downpipes, and detail the roof-to-glazing junction with drained sill channels and replaceable seals.",
+      "environmentalResponse": "Use the processional roof and colonnade to shade east and west-facing public edges; prioritize diffuse daylight to the hall while controlling glare at the glazed façade. Courtyard planting and operable high-level vents can support mixed-mode ventilation when outdoor conditions permit, with mechanical ventilation for crowded events. Preserve permeable landscape, capture roof runoff in planted areas and keep accessible paths above local drainage flows."
+    },
+    {
+      "slug": "delta-commons-innovation-centre",
+      "functionalBrief": "The centre accommodates research teams, shared prototyping and collaboration while separating public events from controlled laboratory work. Researchers need reliable environmental control, secure circulation and serviceable utilities; visitors need an intuitive route to shared commons without entering restricted suites.",
+      "programme": [
+        "Reception and public collaboration commons",
+        "Shared fabrication and prototyping workshop",
+        "Four laboratory/research wings with controlled suites",
+        "Team rooms, seminar rooms and meeting spaces",
+        "Research support, preparation and equipment rooms",
+        "Staff amenities and secure storage",
+        "Building plant, electrical and water-treatment rooms",
+        "Shaded galleries, bridges and planted courtyard"
+      ],
+      "floorOrSiteOrganization": "Arrange four compact wings around the open commons, keeping public reception and shared fabrication at the accessible ground level while locating controlled research suites beyond card-access thresholds. Separate goods and equipment delivery from visitor arrival, with service risers grouped at wing cores and direct maintenance access to plant. Connect upper floors by shaded bridges, but retain independent protected stairs and clear ground-level egress from each wing; laboratory pressure regimes and hazardous processes require specialist review.",
+      "areaOrScale": "Proposal-stage allowance: approximately 6,500–8,000 m² gross floor area over 3 levels across four wings; central planted commons approximately 500–700 m². Site area roughly 1.5–2.0 ha allows service access, bioswales and future utility setbacks; laboratory capacity is brief-dependent.",
+      "structuralSystem": "Reinforced-concrete frame with approximately 7.5–8.4 m bays, concrete shear-wall cores and masonry infill; use localized steel transfer beams only where bridge connections or workshop clearances require them. Lightweight steel trusses or purlins support the roof lantern and rain canopies; bridges use short steel spans between concrete cores.",
+      "constructionLogic": "Establish raised, flood-resilient finished-floor levels after hydrology review; build robust concrete cores and repeatable wing frames, then install serviceable laboratory floors and coordinated risers. Detail exterior galleries as drained, non-slip surfaces with movement joints, canopy gutters and overflow scuppers; use ventilated rainscreen fixings for terracotta fins. Sequence bridges after primary-frame survey and provide accessible inspection points for roof and services.",
+      "environmentalResponse": "Shade east/west façades with deep green terracotta fins and broad rain canopies; use the high lantern for diffuse light and stack-assisted purge of the commons, not uncontrolled ventilation of conditioned labs. Provide efficient laboratory air systems with heat recovery where process requirements allow, and zone them independently. Bioswales, rain gardens and detention handle intense rainfall; native wetland planting and shaded galleries support outdoor comfort while maintaining flood-safe routes."
+    },
+    {
+      "slug": "healing-grove-clinic",
+      "functionalBrief": "The clinic supports outpatient consultation, basic diagnostics and short recovery in a calm, legible setting with privacy for patients and families. Clinical teams need short clean supply routes, separated waste and service movement, accessible examination rooms and the ability to operate during heavy rain and hot weather.",
+      "programme": [
+        "Covered drop-off, reception and registration",
+        "Public waiting and family seating",
+        "Consultation and examination rooms",
+        "Basic treatment and diagnostics rooms",
+        "Nurse base and clinical support/store",
+        "Staff room and administration",
+        "Accessible toilets and patient support rooms",
+        "Clean utility, soiled utility and waste hold",
+        "Plant rooms, verandas and healing garden"
+      ],
+      "floorOrSiteOrganization": "Place reception and waiting along the sheltered arrival edge, with two patient wings opening to the protected garden and a central spine linking consultation rooms to a visible nurse base. Keep clean supplies and staff movement behind controlled doors; locate soiled utility and waste holding near a screened service entry, separated from public drop-off. Use step-free covered routes, short travel distances and multiple outward exits from occupied wings; final clinical zoning and fire strategy require local healthcare-code review.",
+      "areaOrScale": "Proposal-stage allowance: approximately 1,800–2,400 m² gross floor area, primarily single-storey; about 10–14 consultation/examination rooms plus shared treatment and diagnostics, subject to service model. A site of roughly 0.6–0.9 ha provides drop-off, garden, ambulance/service access and stormwater landscape.",
+      "structuralSystem": "Reinforced-concrete frame on a regular approximately 6 m grid with laterite masonry infill and concrete shear-wall/service cores. Roofs use short-span steel or engineered timber rafters supporting a ventilated pitched build-up; verandas may use a simple repeated column line rather than long cantilevers.",
+      "constructionLogic": "Build a raised, damp-protected plinth and concrete frame, then install laterite infill with lime-rendered weather face and breathable interior finishes. Keep tiled eaves on continuous battens over a ventilated, waterproof underlay; use flashed veranda junctions, robust gutters and accessible rain-chain discharge to planted drains. Coordinate washable clinical finishes and sealed service penetrations before fit-out; separate clean and dirty utility infrastructure from the outset.",
+      "environmentalResponse": "Orient patient rooms to garden views and soft daylight while limiting low-angle sun with deep eaves and operable timber screens; protect west-facing glazing most strongly. Verandas provide shaded waiting spill-out, and high-level slots support daylight and controlled purge ventilation where infection-control needs permit. Use ceiling fans and efficient mechanical cooling in clinical rooms, harvest monsoon runoff to planted swales, and select non-slip paths and shade planting suited to coastal humidity."
+    },
+    {
+      "slug": "monsoon-learning-cloister",
+      "functionalBrief": "The campus serves teaching, study and informal exchange across a compact set of academic departments, with sheltered movement during intense seasonal rain. Students and staff need classrooms and studios near shared commons, accessible routes between bars, and safe supervision across the central rain garden.",
+      "programme": [
+        "Teaching studios and flexible classrooms",
+        "Seminar and tutorial rooms",
+        "Library and quiet study areas",
+        "Student commons and informal seating",
+        "Faculty offices and collaboration rooms",
+        "Toilets, lift and protected stairs",
+        "Campus services, storage and maintenance rooms",
+        "Verandas, breezeways and central rain garden"
+      ],
+      "floorOrSiteOrganization": "Arrange three low academic bars around an open quadrangle, with the continuous veranda providing a sheltered, step-free circulation loop and direct entry to studios. Place the library stair tower at the campus threshold, shared commons centrally and quieter study rooms away from arrival activity. Group toilets and service risers at bar ends; maintain clear fire-appliance access, independent protected stairs and open egress routes that do not depend on crossing the rain garden.",
+      "areaOrScale": "Proposal-stage allowance: approximately 5,000–6,500 m² gross floor area over 2–3 levels, distributed across three bars; the open rain-garden quadrangle may occupy 1,000–1,400 m². A campus parcel around 1.2–1.8 ha accommodates access, landscape and future growth; classroom count and enrollment are to be confirmed.",
+      "structuralSystem": "Regular reinforced-concrete frame with approximately 7.2–8.0 m bays and concrete stair/lift cores, using exposed concrete where protected and brick or lightweight infill elsewhere. Short-span steel canopy members connect veranda lines; the stair tower is a braced concrete core with a limited masonry screen.",
+      "constructionLogic": "Construct raised basalt-edged plinths and frame bars in repeatable bays, then install terracotta baguettes on engineered subframes with corrosion-resistant fixings and safe maintenance access. The continuous canopy is assembled in manageable steel modules with falls to gutters; provide expansion joints between bars, drip edges at verandas and overflow points to visible swales. Keep classroom thresholds above courtyard ponding levels and use permeable paving over designed sub-base.",
+      "environmentalResponse": "Orient teaching spaces for balanced daylight, using terracotta baguettes on low-angle east/west exposures and shaded verandas on circulation façades. Operable openings and breezeways support cross-ventilation in suitable seasons, with ceiling fans and efficient conditioning as needed. The rain garden and swales detain monsoon runoff, while canopy collection, robust overflow routes, native shade trees and permeable paths reduce heat and manage intense rainfall."
+    },
+    {
+      "slug": "riverstone-arts-terraces",
+      "functionalBrief": "The centre brings together exhibitions, performance and hands-on arts production, with a public route that remains active outside ticketed events. Visitors need intuitive orientation and accessible movement between galleries, foyer and terraces; operators need controlled gallery lighting, secure collection handling and discreet loading for exhibits and stage equipment.",
+      "programme": [
+        "Shaded public foyer and ticket/information point",
+        "Controlled-light exhibition galleries",
+        "Black-box performance hall and backstage support",
+        "Art workshops and teaching rooms",
+        "Collection preparation and secure stores",
+        "Public toilets, administration and staff rooms",
+        "Loading bay, plant and building services",
+        "River-facing terraces and planted outdoor gathering areas"
+      ],
+      "floorOrSiteOrganization": "Place the public foyer at the civic approach and connect it directly to the stepped terraces, with the gallery bar beside it but controllable independently. Keep the mostly opaque performance hall adjacent to backstage, storage and a screened loading edge; workshop rooms face the more porous public side while maintaining service separation. Provide lift access across terrace levels, protected stairs from gallery and hall zones, and an accessible upper/lower route that does not rely on the river edge; confirm flood and egress strategy with site studies.",
+      "areaOrScale": "Proposal-stage allowance: approximately 4,500–5,800 m² gross floor area over 2–3 levels; gallery provision about 900–1,200 m², black-box hall for roughly 250–350 seats, plus foyer and workshops. Terraced public landscape may extend across 0.4–0.7 ha; final river setbacks and flood levels are site-dependent.",
+      "structuralSystem": "Board-formed reinforced-concrete walls and cores provide gallery mass and lateral stability; regular concrete or steel framing serves foyer and workshop areas. A long-span steel truss roof clears the black-box hall and supports the unified roof plane; north-facing clerestory frames are secondary, thermally broken metal systems.",
+      "constructionLogic": "Set floor levels and retaining structure only after river flood, soil and bank-stability surveys; use engineered retaining walls with subdrainage and movement joints. Build gallery concrete walls for robust environmental control, then install roof trusses and north clerestories with continuous upstands, insulated curbs and maintainable gutters. Terrace paving needs falls away from interiors, drained retaining edges, accessible landings and replaceable stone units; keep riverbank planting out of structural drainage zones.",
+      "environmentalResponse": "Use north-facing clerestory monitors for indirect gallery daylight with external glare control and blackout capability where conservation demands; keep the hall opaque and acoustically isolated. Deep stone reveals and timber screens shade foyer openings, while shaded terraces and trees temper outdoor heat. Capture roof water to storage or planted detention, use high-level ventilation in foyer when conditions permit, and establish flood-resilient landscape planting and safe elevated evacuation routes."
+    },
+    {
+      "slug": "saffron-court-school",
+      "functionalBrief": "The school provides supervised, age-appropriate learning, play and community activity within a compact campus that remains legible to children and visitors. Teachers need nearby outdoor learning courts, safe arrival and dismissal, accessible classrooms and secure separation between public community use and teaching areas after hours.",
+      "programme": [
+        "Entry and visitor reception",
+        "Classrooms grouped by age or learning cluster",
+        "Library and quiet learning room",
+        "Multipurpose hall and community-use room",
+        "Staff workrooms and administration",
+        "Accessible toilets and student support room",
+        "Stores, kitchen/service and building plant",
+        "Three courts: arrival, quiet garden and play commons",
+        "Shaded brick arcade and outdoor learning edges"
+      ],
+      "floorOrSiteOrganization": "Cluster low classroom pavilions around the three distinct courts and link them with one straight, supervised brick arcade. Keep younger classrooms close to reception and the arrival court; locate the larger play commons and multipurpose hall where they can be monitored and independently accessed after hours. Put service/kitchen access on a separate screened edge; provide accessible step-free links, secure boundary control, clear exit routes from each pavilion and fire access around the campus.",
+      "areaOrScale": "Proposal-stage allowance: approximately 4,000–5,200 m² gross floor area, mostly one storey with limited two-level academic block if site constraints require; roughly 16–22 classrooms for 450–650 pupils, subject to local class-size standards. Site area approximately 1.5–2.0 ha allows courts, shaded play and safe drop-off.",
+      "structuralSystem": "Load-bearing ochre brick classroom walls with reinforced-concrete lintels and bond beams, supplemented by regular concrete columns at larger openings and arcade piers. Short-span steel or engineered timber roof trusses span classrooms; ventilated roof monitors use lightweight secondary framing and laterally braced end walls.",
+      "constructionLogic": "Build durable brick piers and walls on a raised, damp-proofed granite-edged plinth, with movement joints at long pavilion runs; protect openings with lintels and rain-shedding sills. Install roof trusses and ventilated build-up before fitting high clerestory glazing, then attach terracotta jali to engineered subframes with secure, replaceable fixings. Give arcade roofs positive falls, gutters and safe overflow discharge; use sand-set court paving only over designed, drained sub-bases.",
+      "environmentalResponse": "Orient classroom openings for diffuse daylight and cross-breezes, with clerestories bringing light deep into rooms while avoiding direct glare on teaching surfaces. Deep arcade shade and terracotta jali reduce solar gain, especially on exposed east and west façades; ceiling fans and high-level vents support comfort, with efficient cooling where needed. Neem trees shade play and arrival courts; drought-tolerant planting, permeable paving and roof-water collection support dry-season resilience."
+    }
+  ]
+}

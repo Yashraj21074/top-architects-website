@@ -1,0 +1,114 @@
+@import '@fontsource/cormorant-garamond/400.css';
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/400-italic.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+:root {
+  color-scheme: light;
+  /* ===== TOP Architects + Partners — official brand palette (single source of truth) ===== */
+  --color-brand-blue: #304d78;        /* Royal Architectural Blue */
+  --color-brand-gold: #ba8e34;        /* Original Logo Gold — never altered, never substituted */
+  --color-warm-ivory: #f3f0e8;
+  --color-midnight-navy: #101722;
+  --color-deep-navy: #19283d;
+  --color-charcoal: #292723;
+  --color-warm-grey: #d9d5cc;
+  --color-muted-grey: #77766f;
+  --color-night-ivory: #eae6dc;
+
+  /* ===== DAY (default): Warm Ivory + Royal Blue + Original Gold ===== */
+  --color-background: #f3f0e8;
+  --color-background-secondary: #ece8de;   /* subtle tonal step of Warm Ivory */
+  --color-background-tertiary: #d9d5cc;
+  --color-surface: #f3f0e8;
+  --color-surface-elevated: #f7f5ef;
+  --color-overlay: rgba(243,240,232,.96);
+  --color-text-primary: #292723;
+  --color-heading: #304d78;
+  --color-text-secondary: #5f5e58;         /* Charcoal-derived; 5.9:1 on Warm Ivory */
+  --color-text-muted: #66655e;             /* #77766F darkened so small text clears 4.5:1 on both ivory surfaces (see colour reference) */
+  --color-accent-text: #304d78;            /* gold is too light for small text on ivory: text accents use Royal Blue */
+  --color-border: #d9d5cc;
+  --color-divider: #d9d5cc;
+  --color-input-bg: #f7f5ef;
+  --color-input-border: #bfbab0;
+  --color-button-primary: #304d78;
+  --color-button-primary-text: #f3f0e8;
+  --color-button-hover: #243b5c;           /* deeper Royal Blue */
+  --color-button-active: #1b2e49;
+  --color-button-disabled: #d9d5cc;
+  --color-active: #ba8e34;                 /* selected-state fill (chips etc.) */
+  --color-nav-indicator: #304d78;          /* active-navigation underline: Royal Blue on ivory (7.5:1; gold was 2.63:1) */
+  --color-focus: #304d78;
+  --color-error: #9b2c2c;                  /* functional error colour: 6.6:1 on ivory */
+  --color-shadow: rgba(41,39,35,.14);
+  --color-header: rgba(243,240,232,.94);
+  --color-footer: #ece8de;
+
+  /* legacy aliases used across the existing stylesheets (kept so no component breaks) */
+  --ivory: var(--color-background); --limestone: var(--color-background-secondary); --stone: var(--color-warm-grey); --stone-d: var(--color-muted-grey);
+  --graphite: var(--color-text-primary); --charcoal: var(--color-midnight-navy); --ink: var(--color-text-primary);
+  --bronze: var(--color-brand-gold); --bronze-l: var(--color-brand-gold);
+  --bg: var(--color-background); --fg: var(--color-text-primary); --muted: var(--color-text-muted); --line: var(--color-border);
+  --elev: var(--color-surface-elevated);
+  --accent-text: var(--color-accent-text); --heading: var(--color-heading);
+  --header-bg: var(--color-header); --veil: rgba(255,255,255,.4); --img-filter: none;
+  --btn-bg: var(--color-button-primary); --btn-fg: var(--color-button-primary-text); --btn-hover: var(--color-button-hover); --btn-active: var(--color-button-active);
+  --btn-sec-fg: var(--color-brand-blue);
+
+  --f-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --f-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --s1: .5rem; --s2: 1rem; --s3: 1.5rem; --s4: 2.5rem; --s5: 4rem; --s6: 7rem; --s7: 10rem;
+  --gutter: clamp(1.25rem, 4vw, 4rem); --max: 1480px; --header-h: 76px;
+  --ease: cubic-bezier(.22,.61,.36,1); --t: .5s;
+  --t-color: .7s ease; --t-hover: .35s var(--ease); --t-ui: .2s ease;   /* motion tokens (collapsed by the reduced-motion rule in base.css) */
+  --ar-wide: 16 / 10; --ar-tall: 4 / 5; --ar-sq: 1 / 1;
+}
+@media (max-width: 720px) { :root { --header-h: 64px; --s6: 4.5rem; --s7: 6rem; } }
+
+/* ===== NIGHT: Midnight Navy + Deep Navy surfaces, Night Ivory type, Original Gold accents; cinematic image grade ===== */
+:root[data-theme='night'] {
+  color-scheme: dark;
+  --color-background: #101722;
+  --color-background-secondary: #19283d;
+  --color-background-tertiary: #223552;
+  --color-surface: #19283d;
+  --color-surface-elevated: #1f3250;
+  --color-overlay: rgba(16,23,34,.96);
+  --color-text-primary: #d9d5cc;
+  --color-heading: #eae6dc;
+  --color-text-secondary: #c4c1b8;
+  --color-text-muted: #b4b1a8;             /* 8.4:1 on Midnight Navy */
+  --color-accent-text: #ba8e34;            /* 6.0:1 on Midnight Navy */
+  --color-border: rgba(217,213,204,.2);
+  --color-divider: rgba(217,213,204,.16);
+  --color-input-bg: #19283d;
+  --color-input-border: rgba(217,213,204,.34);
+  --color-button-primary: #ba8e34;
+  --color-button-primary-text: #101722;
+  --color-button-hover: #a67e2b;           /* deeper treatment of the same gold */
+  --color-button-active: #8f6b22;
+  --color-button-disabled: #2b3b55;
+  --color-active: #ba8e34;
+  --color-nav-indicator: #ba8e34;          /* Original Gold on Midnight Navy (6.0:1) */
+  --color-focus: #d2a548;                  /* lightened gold: focus ring stays clear on Deep Navy cards */
+  --color-error: #f0a8a0;                  /* 9.3:1 on Midnight Navy */
+  --color-shadow: rgba(0,0,0,.4);
+  --color-header: rgba(16,23,34,.92);
+  --color-footer: #0c121b;
+  --ink: var(--color-heading); --graphite: var(--color-heading); --charcoal: #0b111a;
+  --stone-d: var(--color-text-muted);
+  --veil: rgba(255,255,255,.05); --img-filter: brightness(.8) contrast(1.08) saturate(.92);
+  --btn-sec-fg: var(--color-night-ivory);
+}
+/* surfaces that are always dark (hero, banners, dark sections, process finale, reception): gold text accents, ivory type */
+.section--dark, .hero, .hero2, .banner, .pfin, .project-lightbox, .project-marquee__card, .svx-head--dark, .reception-root, .pf-tile__media { --accent-text: var(--color-brand-gold); --heading: var(--color-night-ivory); --btn-sec-fg: var(--color-night-ivory); --btn-bg: var(--color-brand-gold); --btn-fg: var(--color-midnight-navy); --btn-hover: #a67e2b; --btn-active: #8f6b22; }
+.theme-ready, .theme-ready body, .theme-ready .header, .theme-ready .section--stone, .theme-ready .footer, .theme-ready .notice, .theme-ready .img { transition: background-color var(--t-color), color var(--t-color), border-color var(--t-color); }
+
+/* sticky offset for pinned stages: header, plus the Back bar when it is showing (height measured in ReceptionReturnBar) */
+:root { --stick: var(--header-h); }
+:root[data-return-bar] { --stick: calc(var(--header-h) + var(--bar-h, 0px)); }
+/* short viewports (phones on their side): a slimmer header, and the Back bar scrolls away instead of pinning, so content keeps most of the screen */
+@media (max-height: 520px) { :root { --header-h: 56px; } :root[data-return-bar] { --stick: var(--header-h); } .return-bar { position: static; } }
+/* ultra-wide / theatre displays: grow type, spacing and the content width together (rem-based), so the composition keeps its proportions instead of floating in empty space. At 1920px and below nothing changes. */
+@media (min-width: 1920px) { html { font-size: clamp(16px, calc(16px + (100vw - 1920px) * 0.0042), 24px); } :root { --max: 92.5rem; } }
